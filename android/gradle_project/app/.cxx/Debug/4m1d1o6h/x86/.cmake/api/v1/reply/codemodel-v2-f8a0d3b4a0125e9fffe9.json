@@ -1,0 +1,4136 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-deb662295eea59fdc3b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"build" : "addons",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons-Debug-d126f8b8bbff87a72873.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "addons"
+				},
+				{
+					"build" : "addons/primitives",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.primitives-Debug-56b51f453cfcdacd6e84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/primitives",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "addons/image",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.image-Debug-fc3466c8fd9d219b58cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/image",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "addons/font",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.font-Debug-b849bcc34a1c2b8bfd53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/font",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "addons/audio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.audio-Debug-bc56382bdeafd4a17d94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/audio",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "addons/acodec",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.acodec-Debug-e50a854b65c90faf8327.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/acodec",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "addons/color",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.color-Debug-3d5e7d7e1bf2c42f9790.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/color",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "addons/memfile",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.memfile-Debug-fc84a5335c101b0a9ced.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/memfile",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "addons/native_dialog",
+					"jsonFile" : "directory-addons.native_dialog-Debug-cf5c7fc35b32bba8ab38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/native_dialog"
+				},
+				{
+					"build" : "addons/video",
+					"jsonFile" : "directory-addons.video-Debug-a53f29ac7da7f7cf05c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/video"
+				},
+				{
+					"build" : "addons/main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.main-Debug-ed63496cf30b1b4588d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/main",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "android",
+					"jsonFile" : "directory-android-Debug-47d5a4e59818a894c2f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "android",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "demos/cosmic_protector",
+					"jsonFile" : "directory-demos.cosmic_protector-Debug-729a2c5e3659873c3389.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/cosmic_protector",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						212,
+						314
+					]
+				},
+				{
+					"build" : "demos/speed",
+					"jsonFile" : "directory-demos.speed-Debug-93e69e0681bfff72e6bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/speed",
+					"targetIndexes" : 
+					[
+						313,
+						415,
+						418,
+						419
+					]
+				},
+				{
+					"build" : "demos/skater",
+					"jsonFile" : "directory-demos.skater-Debug-249f24264b27c1a7a5a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/skater",
+					"targetIndexes" : 
+					[
+						312,
+						414,
+						416,
+						417
+					]
+				},
+				{
+					"build" : "demos/shooter",
+					"jsonFile" : "directory-demos.shooter-Debug-56d86201d7773b29bd88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/shooter"
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Debug-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271,
+						272,
+						273,
+						274,
+						275,
+						276,
+						277,
+						278,
+						279,
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288,
+						289,
+						290,
+						291,
+						292,
+						293,
+						294,
+						295,
+						296,
+						297,
+						298,
+						299,
+						300,
+						301,
+						302,
+						303,
+						304,
+						305,
+						306,
+						307,
+						308,
+						309,
+						310,
+						311,
+						315,
+						316,
+						317,
+						318,
+						319,
+						320,
+						321,
+						322,
+						323,
+						324,
+						325,
+						326,
+						327,
+						328,
+						329,
+						330,
+						331,
+						332,
+						333,
+						334,
+						335,
+						336,
+						337,
+						338,
+						339,
+						340,
+						341,
+						342,
+						343,
+						344,
+						345,
+						346,
+						347,
+						348,
+						349,
+						350,
+						351,
+						352,
+						353,
+						354,
+						355,
+						356,
+						357,
+						358,
+						359,
+						360,
+						361,
+						362,
+						363,
+						364,
+						365,
+						366,
+						367,
+						368,
+						369,
+						370,
+						371,
+						372,
+						373,
+						374,
+						375,
+						376,
+						377,
+						378,
+						379,
+						380,
+						381,
+						382,
+						383,
+						384,
+						385,
+						386,
+						387,
+						388,
+						389,
+						390,
+						391,
+						392,
+						393,
+						394,
+						395,
+						396,
+						397,
+						398,
+						399,
+						400,
+						401,
+						402,
+						403,
+						404,
+						405,
+						406,
+						407,
+						408,
+						409,
+						410,
+						411,
+						412,
+						413
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests"
+				},
+				{
+					"build" : "docs",
+					"jsonFile" : "directory-docs-Debug-a0a153f7bea992cedd45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "docs",
+					"targetIndexes" : 
+					[
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					],
+					"name" : "ALLEGRO",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271,
+						272,
+						273,
+						274,
+						275,
+						276,
+						277,
+						278,
+						279,
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288,
+						289,
+						290,
+						291,
+						292,
+						293,
+						294,
+						295,
+						296,
+						297,
+						298,
+						299,
+						300,
+						301,
+						302,
+						303,
+						304,
+						305,
+						306,
+						307,
+						308,
+						309,
+						310,
+						311,
+						312,
+						313,
+						314,
+						315,
+						316,
+						317,
+						318,
+						319,
+						320,
+						321,
+						322,
+						323,
+						324,
+						325,
+						326,
+						327,
+						328,
+						329,
+						330,
+						331,
+						332,
+						333,
+						334,
+						335,
+						336,
+						337,
+						338,
+						339,
+						340,
+						341,
+						342,
+						343,
+						344,
+						345,
+						346,
+						347,
+						348,
+						349,
+						350,
+						351,
+						352,
+						353,
+						354,
+						355,
+						356,
+						357,
+						358,
+						359,
+						360,
+						361,
+						362,
+						363,
+						364,
+						365,
+						366,
+						367,
+						368,
+						369,
+						370,
+						371,
+						372,
+						373,
+						374,
+						375,
+						376,
+						377,
+						378,
+						379,
+						380,
+						381,
+						382,
+						383,
+						384,
+						385,
+						386,
+						387,
+						388,
+						389,
+						390,
+						391,
+						392,
+						393,
+						394,
+						395,
+						396,
+						397,
+						398,
+						399,
+						400,
+						401,
+						402,
+						403,
+						404,
+						405,
+						406,
+						407,
+						408,
+						409,
+						410,
+						411,
+						412,
+						413,
+						414,
+						415,
+						416,
+						417,
+						418,
+						419
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "aar::@7e66ad4de370faaec58f",
+					"jsonFile" : "target-aar-Debug-6e0b3c68b150396f72ef.json",
+					"name" : "aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "allegro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-allegro-Debug-0e2082738a0d5c5b37a8.json",
+					"name" : "allegro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "allegro_acodec::@1f14d5102b1e331d1d91",
+					"jsonFile" : "target-allegro_acodec-Debug-4e9a9a9e2ff3487a3123.json",
+					"name" : "allegro_acodec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "allegro_audio::@5053eabd6a8b5b3704f0",
+					"jsonFile" : "target-allegro_audio-Debug-33b6bafd2982e2aef946.json",
+					"name" : "allegro_audio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "allegro_color::@6867cadcad80a4c40f59",
+					"jsonFile" : "target-allegro_color-Debug-e7a52c6e9a5d2b1db59b.json",
+					"name" : "allegro_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "allegro_font::@4c3861bae7c8b904828d",
+					"jsonFile" : "target-allegro_font-Debug-d3907f5332f2783129af.json",
+					"name" : "allegro_font",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "allegro_image::@6f6bc93697b3176762c6",
+					"jsonFile" : "target-allegro_image-Debug-bb51cf712f60c483cf69.json",
+					"name" : "allegro_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "allegro_main::@b7107a580e5578a01e14",
+					"jsonFile" : "target-allegro_main-Debug-fb3966b62f074c91436a.json",
+					"name" : "allegro_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "allegro_memfile::@5ef22e1139e26f6a712e",
+					"jsonFile" : "target-allegro_memfile-Debug-a5f873c00da209355e40.json",
+					"name" : "allegro_memfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "allegro_primitives::@4926f8e3fd45ed59f669",
+					"jsonFile" : "target-allegro_primitives-Debug-1e84f5afb516dd92038d.json",
+					"name" : "allegro_primitives",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_example_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_example_data-Debug-336866d2d53d1f339db9.json",
+					"name" : "copy_example_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "cosmic_protector::@405e6196deeba822ade9",
+					"jsonFile" : "target-cosmic_protector-Debug-98f33822107d13aab7aa.json",
+					"name" : "cosmic_protector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "cosmic_protector_apk::@405e6196deeba822ade9",
+					"jsonFile" : "target-cosmic_protector_apk-Debug-c20aa5d45e428dba2ab3.json",
+					"name" : "cosmic_protector_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "docs::@25ace4044b5cefe8d37f",
+					"jsonFile" : "target-docs-Debug-f9b62a53cb2676037fea.json",
+					"name" : "docs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_android::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_android-Debug-bf895b3bd5753037dd16.json",
+					"name" : "ex_android",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_android_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_android_apk-Debug-10aa6177c143b98d721c.json",
+					"name" : "ex_android_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_audio_devices::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_audio_devices-Debug-452d32b672f76edf9d5f.json",
+					"name" : "ex_audio_devices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_audio_devices_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_audio_devices_apk-Debug-bb5a1db2c8f7555295d3.json",
+					"name" : "ex_audio_devices_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_audio_props::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_audio_props-Debug-a0acf3df947b0e25f62b.json",
+					"name" : "ex_audio_props",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_audio_props_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_audio_props_apk-Debug-6ae0f8327ba00b7b0623.json",
+					"name" : "ex_audio_props_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_audio_timer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_audio_timer-Debug-3a3e56065c926897a4b1.json",
+					"name" : "ex_audio_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_audio_timer_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_audio_timer_apk-Debug-c17cb467b4cb75454bb6.json",
+					"name" : "ex_audio_timer_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_bitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_bitmap-Debug-c968e5e4b4a048c6a45a.json",
+					"name" : "ex_bitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_bitmap_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_bitmap_apk-Debug-a69d3034ee236ed2ee6f.json",
+					"name" : "ex_bitmap_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_bitmap_file::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_bitmap_file-Debug-8b6b94a7cc60ff464d26.json",
+					"name" : "ex_bitmap_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_bitmap_file_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_bitmap_file_apk-Debug-17a39a22be8b4aee4625.json",
+					"name" : "ex_bitmap_file_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_bitmap_flip::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_bitmap_flip-Debug-ff9de6c5ede0426d6869.json",
+					"name" : "ex_bitmap_flip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_bitmap_flip_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_bitmap_flip_apk-Debug-b096dc9af649060159c4.json",
+					"name" : "ex_bitmap_flip_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend-Debug-81fb3995a449692a2cf5.json",
+					"name" : "ex_blend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend2-Debug-1cb238fb31f8e6ab8427.json",
+					"name" : "ex_blend2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend2_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend2_apk-Debug-130b69a2df84c0b41095.json",
+					"name" : "ex_blend2_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend_apk-Debug-29339043837c25ef0cef.json",
+					"name" : "ex_blend_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend_bench::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend_bench-Debug-d6cf6c401c587a34c91c.json",
+					"name" : "ex_blend_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend_bench_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend_bench_apk-Debug-e8c99ec84c260dfce5ff.json",
+					"name" : "ex_blend_bench_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend_target-Debug-39d52cce79714d9b5c90.json",
+					"name" : "ex_blend_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend_target_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend_target_apk-Debug-9435fb648fa4e6ac0747.json",
+					"name" : "ex_blend_target_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend_test-Debug-5144d38b36bd92cba8f2.json",
+					"name" : "ex_blend_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blend_test_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blend_test_apk-Debug-53a54b86be4dad3bbe31.json",
+					"name" : "ex_blend_test_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blit::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blit-Debug-e8cc05bc1dc642e12577.json",
+					"name" : "ex_blit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_blit_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_blit_apk-Debug-bd667bb89b2996cedff7.json",
+					"name" : "ex_blit_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_camera::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_camera-Debug-5b75c8655318dd5ee229.json",
+					"name" : "ex_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_camera_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_camera_apk-Debug-46bf7a47a05ec390ac7d.json",
+					"name" : "ex_camera_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_clip::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_clip-Debug-89dd2651560a4725c2d2.json",
+					"name" : "ex_clip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_clip_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_clip_apk-Debug-969a5d8aff536423aa69.json",
+					"name" : "ex_clip_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_clipboard::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_clipboard-Debug-0c7cdd73dfbebbb9ccca.json",
+					"name" : "ex_clipboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_clipboard_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_clipboard_apk-Debug-9310d02fe5f03ec2884d.json",
+					"name" : "ex_clipboard_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_color2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_color2-Debug-ffa64829f590bec29041.json",
+					"name" : "ex_color2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_color2_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_color2_apk-Debug-5a5a0df225475c3c5a5e.json",
+					"name" : "ex_color2_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_compressed::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_compressed-Debug-1dde1a3893ccc664687c.json",
+					"name" : "ex_compressed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_compressed_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_compressed_apk-Debug-5f5f40cdffc32999ae40.json",
+					"name" : "ex_compressed_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_config::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_config-Debug-0158ef3b80dfc187a5e3.json",
+					"name" : "ex_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_config_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_config_apk-Debug-51483ca6e6189f679722.json",
+					"name" : "ex_config_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_cpu::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_cpu-Debug-4f7b419462dff8d47294.json",
+					"name" : "ex_cpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_cpu_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_cpu_apk-Debug-bbc254d558e0ab06391f.json",
+					"name" : "ex_cpu_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_depth_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_depth_target-Debug-34e1d2c9d7096082ccf1.json",
+					"name" : "ex_depth_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_depth_target_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_depth_target_apk-Debug-7443e56a43a38fac817d.json",
+					"name" : "ex_depth_target_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_dir::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_dir-Debug-e16a823f3a16536534d6.json",
+					"name" : "ex_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_dir_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_dir_apk-Debug-f999b39e0c6431012b0b.json",
+					"name" : "ex_dir_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_disable_screensaver::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_disable_screensaver-Debug-e34b9c82884b5fdbeb39.json",
+					"name" : "ex_disable_screensaver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_disable_screensaver_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_disable_screensaver_apk-Debug-9be2446e8b6bdf8ea155.json",
+					"name" : "ex_disable_screensaver_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_display_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_display_events-Debug-c45b5a0e6a1a06941a91.json",
+					"name" : "ex_display_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_display_events_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_display_events_apk-Debug-b4c322247f303f29ce66.json",
+					"name" : "ex_display_events_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_display_options::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_display_options-Debug-fb4dd98ccb5a69a6b74b.json",
+					"name" : "ex_display_options",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_display_options_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_display_options_apk-Debug-d0ada0dfd39b62ba8da5.json",
+					"name" : "ex_display_options_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_draw::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_draw-Debug-49bcb8504bf10a86f06c.json",
+					"name" : "ex_draw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_draw_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_draw_apk-Debug-a74be4c47309923f00fa.json",
+					"name" : "ex_draw_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_draw_bitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_draw_bitmap-Debug-079ded02ca943deeab1e.json",
+					"name" : "ex_draw_bitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_draw_bitmap_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_draw_bitmap_apk-Debug-d6ba60f944e3f25b7688.json",
+					"name" : "ex_draw_bitmap_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_drawpixels::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_drawpixels-Debug-14d8ba0b0408f74e20d3.json",
+					"name" : "ex_drawpixels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_drawpixels_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_drawpixels_apk-Debug-5812c0d6ebb1fe61ed81.json",
+					"name" : "ex_drawpixels_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_dualies::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_dualies-Debug-9819379089abc7121f2e.json",
+					"name" : "ex_dualies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_dualies_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_dualies_apk-Debug-61b10840e7a8aa6b0883.json",
+					"name" : "ex_dualies_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_expose::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_expose-Debug-7b1a5cdf5d943e7f3551.json",
+					"name" : "ex_expose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_expose_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_expose_apk-Debug-e945766acab16670e7a8.json",
+					"name" : "ex_expose_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_filter::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_filter-Debug-1116906930b2a7ac5df2.json",
+					"name" : "ex_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_filter_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_filter_apk-Debug-b6443548595adf69f335.json",
+					"name" : "ex_filter_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_font::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_font-Debug-0f506139dd93e840d896.json",
+					"name" : "ex_font",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_font_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_font_apk-Debug-0fa8ebb5da27c0c1fe75.json",
+					"name" : "ex_font_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_fs_resize::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_fs_resize-Debug-b5411ef4b93ac9b27abb.json",
+					"name" : "ex_fs_resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_fs_resize_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_fs_resize_apk-Debug-0d7989bdd9b162efdb7b.json",
+					"name" : "ex_fs_resize_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_fs_window::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_fs_window-Debug-d1011bba2a62929b4732.json",
+					"name" : "ex_fs_window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_fs_window_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_fs_window_apk-Debug-92e9ecfc45c7d07ab31e.json",
+					"name" : "ex_fs_window_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_get_path::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_get_path-Debug-ff77c54a2f66a4693683.json",
+					"name" : "ex_get_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_get_path_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_get_path_apk-Debug-38095d68aead50c31c12.json",
+					"name" : "ex_get_path_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_haiku::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_haiku-Debug-50b265abadebf8d8cad3.json",
+					"name" : "ex_haiku",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_haiku_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_haiku_apk-Debug-2f62d22197ee111e89d1.json",
+					"name" : "ex_haiku_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_haptic::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_haptic-Debug-1c5182aea156209fe4f7.json",
+					"name" : "ex_haptic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_haptic_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_haptic_apk-Debug-c65974b9f024b85ad910.json",
+					"name" : "ex_haptic_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_icon::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_icon-Debug-cfbb9fdc68ee49f60e4a.json",
+					"name" : "ex_icon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_icon2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_icon2-Debug-a2e8faadd19fff004e0e.json",
+					"name" : "ex_icon2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_icon2_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_icon2_apk-Debug-546d13a95f13a66d7e3f.json",
+					"name" : "ex_icon2_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_icon_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_icon_apk-Debug-3759050bbd5ab12dfc7e.json",
+					"name" : "ex_icon_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_inject_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_inject_events-Debug-177ca8e8e62d205cc2ca.json",
+					"name" : "ex_inject_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_inject_events_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_inject_events_apk-Debug-5d9eed62c67809af17f1.json",
+					"name" : "ex_inject_events_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_joystick_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_joystick_events-Debug-712a0f3495504fb56982.json",
+					"name" : "ex_joystick_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_joystick_events_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_joystick_events_apk-Debug-e6e4d063a3859b4bfc9e.json",
+					"name" : "ex_joystick_events_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_joystick_hotplugging::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_joystick_hotplugging-Debug-e014047bfedc67432750.json",
+					"name" : "ex_joystick_hotplugging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_joystick_hotplugging_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_joystick_hotplugging_apk-Debug-ffcb90416ab7dd440977.json",
+					"name" : "ex_joystick_hotplugging_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_keyboard_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_keyboard_events-Debug-c2c3d68f7b556e3a3bf6.json",
+					"name" : "ex_keyboard_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_keyboard_events_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_keyboard_events_apk-Debug-146e89f6cf15ae64d1c2.json",
+					"name" : "ex_keyboard_events_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_keyboard_focus::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_keyboard_focus-Debug-47b49d34a318964e65b9.json",
+					"name" : "ex_keyboard_focus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_keyboard_focus_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_keyboard_focus_apk-Debug-1bba3508201411fb28b6.json",
+					"name" : "ex_keyboard_focus_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_lines::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_lines-Debug-91ed74492c7e37086a6e.json",
+					"name" : "ex_lines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_lines_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_lines_apk-Debug-4bd1d940c6a02b982dce.json",
+					"name" : "ex_lines_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_loading_thread::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_loading_thread-Debug-4ea6aa6ae4d0fbdf3d32.json",
+					"name" : "ex_loading_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_loading_thread_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_loading_thread_apk-Debug-861801fc24d8cb45e3b3.json",
+					"name" : "ex_loading_thread_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_lockbitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_lockbitmap-Debug-560db9df9ac8aee1ccb4.json",
+					"name" : "ex_lockbitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_lockbitmap_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_lockbitmap_apk-Debug-9ff99d6a86a756839a7a.json",
+					"name" : "ex_lockbitmap_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_membmp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_membmp-Debug-7b7e90017aa9b4ab8897.json",
+					"name" : "ex_membmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_membmp_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_membmp_apk-Debug-5599123e2a160df999de.json",
+					"name" : "ex_membmp_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mixer_pp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mixer_pp-Debug-d2dbca43c70f54805d0c.json",
+					"name" : "ex_mixer_pp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mixer_pp_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mixer_pp_apk-Debug-65a4497871ff0d5c6a8d.json",
+					"name" : "ex_mixer_pp_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_monitorinfo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_monitorinfo-Debug-40c3739faa369cabd807.json",
+					"name" : "ex_monitorinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_monitorinfo_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_monitorinfo_apk-Debug-7f05ed9ad91e2619975e.json",
+					"name" : "ex_monitorinfo_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse-Debug-1503b2bc0ed037eda42d.json",
+					"name" : "ex_mouse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_apk-Debug-9d9ddc88b8f31f588b6d.json",
+					"name" : "ex_mouse_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_cursor::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_cursor-Debug-9b874508970bb1fcf06e.json",
+					"name" : "ex_mouse_cursor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_cursor_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_cursor_apk-Debug-647642948273423d1ab2.json",
+					"name" : "ex_mouse_cursor_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_events-Debug-051e221fd33dbd08fbc1.json",
+					"name" : "ex_mouse_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_events_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_events_apk-Debug-2715832f433ed17739cf.json",
+					"name" : "ex_mouse_events_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_focus::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_focus-Debug-8fb6c4f36273b94ec900.json",
+					"name" : "ex_mouse_focus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_focus_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_focus_apk-Debug-08d8d6f329e32897e7f1.json",
+					"name" : "ex_mouse_focus_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_warp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_warp-Debug-dd2f0006877ca61d3cd4.json",
+					"name" : "ex_mouse_warp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_mouse_warp_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_mouse_warp_apk-Debug-4aacb5d93b4df810a9a4.json",
+					"name" : "ex_mouse_warp_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_multisample::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_multisample-Debug-badfcd96a8d9733ff896.json",
+					"name" : "ex_multisample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_multisample_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_multisample_apk-Debug-2a17a5c91fbe6ba7c365.json",
+					"name" : "ex_multisample_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_multisample_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_multisample_target-Debug-b6906b1633a3b592fe9c.json",
+					"name" : "ex_multisample_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_multisample_target_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_multisample_target_apk-Debug-aa463c78e7c1612b6449.json",
+					"name" : "ex_multisample_target_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_multiwin::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_multiwin-Debug-53f974680c7d3ebe9678.json",
+					"name" : "ex_multiwin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_multiwin_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_multiwin_apk-Debug-4931211f8a6bcba552fd.json",
+					"name" : "ex_multiwin_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_nodisplay::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_nodisplay-Debug-4fe9b5643bda557cc859.json",
+					"name" : "ex_nodisplay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_nodisplay_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_nodisplay_apk-Debug-fc2a6e30c0cb01fc083c.json",
+					"name" : "ex_nodisplay_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_noframe::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_noframe-Debug-21e38d0be9bc9fdf5c49.json",
+					"name" : "ex_noframe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_noframe_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_noframe_apk-Debug-e831b73d86610222958f.json",
+					"name" : "ex_noframe_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_palette::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_palette-Debug-2d512b4085236b2cf40c.json",
+					"name" : "ex_palette",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_palette_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_palette_apk-Debug-f7820d83f9dffcfd16c3.json",
+					"name" : "ex_palette_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_path::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_path-Debug-19cbff715b5e546c9b9f.json",
+					"name" : "ex_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_path_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_path_apk-Debug-05b1f220059eababeaea.json",
+					"name" : "ex_path_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_path_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_path_test-Debug-6c3623800f150c4c896e.json",
+					"name" : "ex_path_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_path_test_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_path_test_apk-Debug-0b5479c96f86215d56ef.json",
+					"name" : "ex_path_test_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_pixelformat::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_pixelformat-Debug-9ebf9107cbdb5c2ce39c.json",
+					"name" : "ex_pixelformat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_pixelformat_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_pixelformat_apk-Debug-fec877e3df96f099afd2.json",
+					"name" : "ex_pixelformat_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_polygon::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_polygon-Debug-250cebc539208bde8428.json",
+					"name" : "ex_polygon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_polygon_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_polygon_apk-Debug-ac0b654639dba1116f2c.json",
+					"name" : "ex_polygon_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_premulalpha::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_premulalpha-Debug-b2fbb1146254f37cfebc.json",
+					"name" : "ex_premulalpha",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_premulalpha_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_premulalpha_apk-Debug-68cadd9317a91b28f5ce.json",
+					"name" : "ex_premulalpha_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_prim::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_prim-Debug-2d80eb25151b93d96d01.json",
+					"name" : "ex_prim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_prim_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_prim_apk-Debug-fed1115d8fb0c6fd2279.json",
+					"name" : "ex_prim_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_prim_shader::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_prim_shader-Debug-eb1413eb5eac4b0a0b1f.json",
+					"name" : "ex_prim_shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_prim_shader_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_prim_shader_apk-Debug-5047f9c992af1d4846f0.json",
+					"name" : "ex_prim_shader_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_prim_wrap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_prim_wrap-Debug-19a938776c70f03240d3.json",
+					"name" : "ex_prim_wrap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_prim_wrap_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_prim_wrap_apk-Debug-dd8d6911f0c898c3a715.json",
+					"name" : "ex_prim_wrap_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_projection2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_projection2-Debug-32093961ba2478ee4988.json",
+					"name" : "ex_projection2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_projection2_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_projection2_apk-Debug-79ce404065841b9b8ce9.json",
+					"name" : "ex_projection2_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_record::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_record-Debug-4d36b7e2af78362d8d80.json",
+					"name" : "ex_record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_record_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_record_apk-Debug-5ddf0346ca1ee4a5e628.json",
+					"name" : "ex_record_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_record_name::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_record_name-Debug-1904d96dc227be4409a8.json",
+					"name" : "ex_record_name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_record_name_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_record_name_apk-Debug-ccc091a04f2ccdcfd388.json",
+					"name" : "ex_record_name_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_reparent::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_reparent-Debug-007a4f0f202061f2085c.json",
+					"name" : "ex_reparent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_reparent_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_reparent_apk-Debug-a11d45b4629763d8af9c.json",
+					"name" : "ex_reparent_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_resample_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_resample_test-Debug-94012dd9c796be08b07b.json",
+					"name" : "ex_resample_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_resample_test_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_resample_test_apk-Debug-d319dc4deca081e952be.json",
+					"name" : "ex_resample_test_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_resize::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_resize-Debug-74cb9d9aa685603dbe83.json",
+					"name" : "ex_resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_resize2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_resize2-Debug-06925488666fede601a3.json",
+					"name" : "ex_resize2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_resize2_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_resize2_apk-Debug-631e2f17253e5b9e6de9.json",
+					"name" : "ex_resize2_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_resize_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_resize_apk-Debug-6174c3804c410c4e4b08.json",
+					"name" : "ex_resize_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_rotate::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_rotate-Debug-3470937b678b126b7d06.json",
+					"name" : "ex_rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_rotate_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_rotate_apk-Debug-9f906c34d06c5d181ef9.json",
+					"name" : "ex_rotate_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_saw::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_saw-Debug-8ff493b2269f42133233.json",
+					"name" : "ex_saw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_saw_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_saw_apk-Debug-9857e41dc23c16adc80d.json",
+					"name" : "ex_saw_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_scale::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_scale-Debug-179d07c3ea1554ad8c43.json",
+					"name" : "ex_scale",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_scale_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_scale_apk-Debug-b3e96dc8217f0fa1033e.json",
+					"name" : "ex_scale_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_shader::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_shader-Debug-31f17c6a45d275697d98.json",
+					"name" : "ex_shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_shader_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_shader_apk-Debug-def8e7c65f1d605d13d5.json",
+					"name" : "ex_shader_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_shader_multitex::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_shader_multitex-Debug-4f0e8fb9d81d93031d94.json",
+					"name" : "ex_shader_multitex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_shader_multitex_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_shader_multitex_apk-Debug-bdba6ce9a05226e0a4c4.json",
+					"name" : "ex_shader_multitex_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_shader_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_shader_target-Debug-823944b78aa26552a15e.json",
+					"name" : "ex_shader_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_shader_target_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_shader_target_apk-Debug-6df46341bb4fa7d0101b.json",
+					"name" : "ex_shader_target_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_stream_seek::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_stream_seek-Debug-4951d6e825bdff3b1d07.json",
+					"name" : "ex_stream_seek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_stream_seek_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_stream_seek_apk-Debug-7223dd2b1100daa0e4b9.json",
+					"name" : "ex_stream_seek_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_subbitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_subbitmap-Debug-368b8fa105511ddc95e3.json",
+					"name" : "ex_subbitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_subbitmap_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_subbitmap_apk-Debug-730c1207cf05d3807462.json",
+					"name" : "ex_subbitmap_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_threads::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_threads-Debug-d44431a95319583ef009.json",
+					"name" : "ex_threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_threads2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_threads2-Debug-743dee21277a95be6b46.json",
+					"name" : "ex_threads2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_threads2_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_threads2_apk-Debug-adf850ce27910d0889a5.json",
+					"name" : "ex_threads2_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_threads_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_threads_apk-Debug-9a87efe630e259cf4030.json",
+					"name" : "ex_threads_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_timedwait::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_timedwait-Debug-719173ad6f1155468172.json",
+					"name" : "ex_timedwait",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_timedwait_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_timedwait_apk-Debug-2a3d678528c0fcbb004e.json",
+					"name" : "ex_timedwait_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_timer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_timer-Debug-043fbb46163bf135b8f9.json",
+					"name" : "ex_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_timer_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_timer_apk-Debug-468668ef3692554b3960.json",
+					"name" : "ex_timer_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_timer_pause::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_timer_pause-Debug-7f63eafb6204d85c6fc9.json",
+					"name" : "ex_timer_pause",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_timer_pause_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_timer_pause_apk-Debug-ed49e29222855ec3f664.json",
+					"name" : "ex_timer_pause_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_touch_input::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_touch_input-Debug-948c6cb361354e248fd1.json",
+					"name" : "ex_touch_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_touch_input_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_touch_input_apk-Debug-209361b7a549806b53e0.json",
+					"name" : "ex_touch_input_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_transform::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_transform-Debug-93dea7758b0b1961b4b5.json",
+					"name" : "ex_transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_transform_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_transform_apk-Debug-89503038375451f9cbb6.json",
+					"name" : "ex_transform_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_user_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_user_events-Debug-a2b06066ed39dbba3b8c.json",
+					"name" : "ex_user_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_user_events_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_user_events_apk-Debug-5c02c562e260079fc434.json",
+					"name" : "ex_user_events_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_utf8::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_utf8-Debug-0fad52290bcd6886050a.json",
+					"name" : "ex_utf8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_utf8_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_utf8_apk-Debug-d8f362a17600f8452d96.json",
+					"name" : "ex_utf8_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_vertex_buffer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_vertex_buffer-Debug-323b815543a05bc7c7d3.json",
+					"name" : "ex_vertex_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_vertex_buffer_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_vertex_buffer_apk-Debug-fe87909487d9481d11c6.json",
+					"name" : "ex_vertex_buffer_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_vsync::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_vsync-Debug-0b710f767ac76a2d4960.json",
+					"name" : "ex_vsync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_vsync_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_vsync_apk-Debug-1a799c1af575f8ee3b1e.json",
+					"name" : "ex_vsync_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_window_constraints::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_window_constraints-Debug-1ec11de90d82735641e4.json",
+					"name" : "ex_window_constraints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_window_constraints_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_window_constraints_apk-Debug-0eb9e102b76ae5dada15.json",
+					"name" : "ex_window_constraints_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_window_title::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_window_title-Debug-c0cb938001ed0e226ee7.json",
+					"name" : "ex_window_title",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_window_title_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_window_title_apk-Debug-72e2cb25a4b54ddee615.json",
+					"name" : "ex_window_title_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_windows::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_windows-Debug-ac558b669bb9a4998917.json",
+					"name" : "ex_windows",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_windows_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_windows_apk-Debug-fd7c14b323daff333138.json",
+					"name" : "ex_windows_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_winfull::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_winfull-Debug-03a8cbac2502ee42e0a6.json",
+					"name" : "ex_winfull",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ex_winfull_apk::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ex_winfull_apk-Debug-7530f085b9543ae3ecac.json",
+					"name" : "ex_winfull_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "install_cosmic_protector::@405e6196deeba822ade9",
+					"jsonFile" : "target-install_cosmic_protector-Debug-22d1a8b9aeac8c2f7a8b.json",
+					"name" : "install_cosmic_protector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_android::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_android-Debug-012873069e9b1b6ad929.json",
+					"name" : "install_ex_android",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_audio_devices::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_audio_devices-Debug-62ef99474a1376b01f9d.json",
+					"name" : "install_ex_audio_devices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_audio_props::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_audio_props-Debug-7fc947e8bbb663194044.json",
+					"name" : "install_ex_audio_props",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_audio_timer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_audio_timer-Debug-dc108db8d4f4b20acec8.json",
+					"name" : "install_ex_audio_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_bitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_bitmap-Debug-1af351a18e970441e899.json",
+					"name" : "install_ex_bitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_bitmap_file::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_bitmap_file-Debug-30628051d43a08784704.json",
+					"name" : "install_ex_bitmap_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_bitmap_flip::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_bitmap_flip-Debug-3e6d092a560eac741c2f.json",
+					"name" : "install_ex_bitmap_flip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_blend::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_blend-Debug-bf785d51f1f5d8558c5d.json",
+					"name" : "install_ex_blend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_blend2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_blend2-Debug-96bb637d180944819ba2.json",
+					"name" : "install_ex_blend2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_blend_bench::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_blend_bench-Debug-7bc97c9118c1ad17f6bd.json",
+					"name" : "install_ex_blend_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_blend_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_blend_target-Debug-16a922cba57d4e7c3809.json",
+					"name" : "install_ex_blend_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_blend_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_blend_test-Debug-3b887678e1ffabea133b.json",
+					"name" : "install_ex_blend_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_blit::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_blit-Debug-0149940a782a9a0896e5.json",
+					"name" : "install_ex_blit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_camera::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_camera-Debug-8430dc1f1380d1c5e95f.json",
+					"name" : "install_ex_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_clip::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_clip-Debug-9f7e6bfdaf1a440ccdc6.json",
+					"name" : "install_ex_clip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_clipboard::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_clipboard-Debug-4022acfa6e81362b9545.json",
+					"name" : "install_ex_clipboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_color2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_color2-Debug-dd207ea1e35cc41fb7e4.json",
+					"name" : "install_ex_color2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_compressed::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_compressed-Debug-d357569bf417c9a7bd32.json",
+					"name" : "install_ex_compressed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_config::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_config-Debug-5ee11bc7cb3f468bc9be.json",
+					"name" : "install_ex_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_cpu::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_cpu-Debug-f00ff919c2ffbbb2538e.json",
+					"name" : "install_ex_cpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_depth_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_depth_target-Debug-daf0ff14c2b7aa482606.json",
+					"name" : "install_ex_depth_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_dir::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_dir-Debug-b3b1f64a46cfe4d7eb86.json",
+					"name" : "install_ex_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_disable_screensaver::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_disable_screensaver-Debug-75a4a7524b1846af4510.json",
+					"name" : "install_ex_disable_screensaver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_display_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_display_events-Debug-9e16262888b675e31467.json",
+					"name" : "install_ex_display_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_display_options::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_display_options-Debug-681b2f949c9dd631bc8b.json",
+					"name" : "install_ex_display_options",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_draw::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_draw-Debug-6e1c71d42d205ed6c1ac.json",
+					"name" : "install_ex_draw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_draw_bitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_draw_bitmap-Debug-24719c38b568d476f886.json",
+					"name" : "install_ex_draw_bitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_drawpixels::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_drawpixels-Debug-e303aaaa267d137fbf38.json",
+					"name" : "install_ex_drawpixels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_dualies::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_dualies-Debug-8f35d43ce977684d495c.json",
+					"name" : "install_ex_dualies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_expose::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_expose-Debug-a1a8e08c545d06b44b9b.json",
+					"name" : "install_ex_expose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_filter::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_filter-Debug-450443c6ac2a7fe7424c.json",
+					"name" : "install_ex_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_font::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_font-Debug-e836e51e0f63cf99caa0.json",
+					"name" : "install_ex_font",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_fs_resize::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_fs_resize-Debug-e146da4215428cfc7f84.json",
+					"name" : "install_ex_fs_resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_fs_window::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_fs_window-Debug-46c62c63be5ca1d5f860.json",
+					"name" : "install_ex_fs_window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_get_path::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_get_path-Debug-50d9947e7de52203f17f.json",
+					"name" : "install_ex_get_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_haiku::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_haiku-Debug-3974e6acffa3f5293791.json",
+					"name" : "install_ex_haiku",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_haptic::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_haptic-Debug-5e77a01c16fdf6dd4a24.json",
+					"name" : "install_ex_haptic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_icon::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_icon-Debug-1299d798c031ff2e0ea5.json",
+					"name" : "install_ex_icon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_icon2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_icon2-Debug-a2e09ef30f98a78f8d8c.json",
+					"name" : "install_ex_icon2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_inject_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_inject_events-Debug-9aa96875f368bd64745d.json",
+					"name" : "install_ex_inject_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_joystick_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_joystick_events-Debug-53ec56bd6bdc5cecd6b0.json",
+					"name" : "install_ex_joystick_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_joystick_hotplugging::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_joystick_hotplugging-Debug-ffc97786da8607b9b9de.json",
+					"name" : "install_ex_joystick_hotplugging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_keyboard_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_keyboard_events-Debug-e6b3816a19f6b053f1fb.json",
+					"name" : "install_ex_keyboard_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_keyboard_focus::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_keyboard_focus-Debug-595c77bfb0e72d01afcc.json",
+					"name" : "install_ex_keyboard_focus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_lines::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_lines-Debug-7087bd56d4af9ce11bc2.json",
+					"name" : "install_ex_lines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_loading_thread::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_loading_thread-Debug-770fcd3e2d928d0a3821.json",
+					"name" : "install_ex_loading_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_lockbitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_lockbitmap-Debug-fec8e861f03355aaf49b.json",
+					"name" : "install_ex_lockbitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_membmp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_membmp-Debug-b56d27986084532d74a2.json",
+					"name" : "install_ex_membmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_mixer_pp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_mixer_pp-Debug-0e338320b458fb743495.json",
+					"name" : "install_ex_mixer_pp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_monitorinfo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_monitorinfo-Debug-fc6ec9115cba8e84c9f7.json",
+					"name" : "install_ex_monitorinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_mouse::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_mouse-Debug-7fb8f76b6600464d59d7.json",
+					"name" : "install_ex_mouse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_mouse_cursor::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_mouse_cursor-Debug-3c2b341ed558bd7099f5.json",
+					"name" : "install_ex_mouse_cursor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_mouse_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_mouse_events-Debug-7a3bd625f3ab7bb7d0ac.json",
+					"name" : "install_ex_mouse_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_mouse_focus::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_mouse_focus-Debug-4b5cb332808cb91f15d5.json",
+					"name" : "install_ex_mouse_focus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_mouse_warp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_mouse_warp-Debug-0f03c48a839a18a2547d.json",
+					"name" : "install_ex_mouse_warp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_multisample::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_multisample-Debug-9432236368fbe1ec1608.json",
+					"name" : "install_ex_multisample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_multisample_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_multisample_target-Debug-1c3513cc7354dc68bf35.json",
+					"name" : "install_ex_multisample_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_multiwin::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_multiwin-Debug-1b1ed1f216caed3fe05d.json",
+					"name" : "install_ex_multiwin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_nodisplay::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_nodisplay-Debug-3d2dba1ad82876026269.json",
+					"name" : "install_ex_nodisplay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_noframe::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_noframe-Debug-9007bee579b7d27d35ac.json",
+					"name" : "install_ex_noframe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_palette::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_palette-Debug-47f65019b4e32bb32414.json",
+					"name" : "install_ex_palette",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_path::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_path-Debug-2b5720d117b76a458689.json",
+					"name" : "install_ex_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_path_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_path_test-Debug-ba106c5071b42bf4a859.json",
+					"name" : "install_ex_path_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_pixelformat::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_pixelformat-Debug-937de53481daf0c7c95e.json",
+					"name" : "install_ex_pixelformat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_polygon::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_polygon-Debug-a3b5f2cbe49820312605.json",
+					"name" : "install_ex_polygon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_premulalpha::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_premulalpha-Debug-6321ac69bbf521b64d8e.json",
+					"name" : "install_ex_premulalpha",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_prim::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_prim-Debug-826c700ba1b17e7b85c9.json",
+					"name" : "install_ex_prim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_prim_shader::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_prim_shader-Debug-54b6b0ce89deec96534c.json",
+					"name" : "install_ex_prim_shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_prim_wrap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_prim_wrap-Debug-a0c5fc20a91eac8e308a.json",
+					"name" : "install_ex_prim_wrap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_projection2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_projection2-Debug-ca80994f2061d34558c9.json",
+					"name" : "install_ex_projection2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_record::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_record-Debug-7de0ce6711f26d8fcb69.json",
+					"name" : "install_ex_record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_record_name::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_record_name-Debug-536aee51fe10ce5e0137.json",
+					"name" : "install_ex_record_name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_reparent::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_reparent-Debug-549079a2e517e514c945.json",
+					"name" : "install_ex_reparent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_resample_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_resample_test-Debug-c3f3e2cc0e4627b6e006.json",
+					"name" : "install_ex_resample_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_resize::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_resize-Debug-2461b164e3b27f758ccf.json",
+					"name" : "install_ex_resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_resize2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_resize2-Debug-7f8822a3c0b1411780f1.json",
+					"name" : "install_ex_resize2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_rotate::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_rotate-Debug-cb825c1c88c2d22b6325.json",
+					"name" : "install_ex_rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_saw::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_saw-Debug-e3e5affa5721f2d9c476.json",
+					"name" : "install_ex_saw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_scale::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_scale-Debug-987cc46e29c7f0eb3414.json",
+					"name" : "install_ex_scale",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_shader::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_shader-Debug-8aaf0af161eee50ead6c.json",
+					"name" : "install_ex_shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_shader_multitex::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_shader_multitex-Debug-621c6964136fef5f1cd6.json",
+					"name" : "install_ex_shader_multitex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_shader_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_shader_target-Debug-0a229e0f5506f6819735.json",
+					"name" : "install_ex_shader_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_stream_seek::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_stream_seek-Debug-7c5e0e834c80862f5bc3.json",
+					"name" : "install_ex_stream_seek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_subbitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_subbitmap-Debug-7745af002440aeb4a9fc.json",
+					"name" : "install_ex_subbitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_threads::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_threads-Debug-3a98cdc2afd219e9c1dc.json",
+					"name" : "install_ex_threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_threads2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_threads2-Debug-c0cbe4011e9721382ce7.json",
+					"name" : "install_ex_threads2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_timedwait::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_timedwait-Debug-3d9bb6ef39518ade57e8.json",
+					"name" : "install_ex_timedwait",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_timer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_timer-Debug-20c04b6035a120184411.json",
+					"name" : "install_ex_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_timer_pause::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_timer_pause-Debug-20f4fdb063c72e876d89.json",
+					"name" : "install_ex_timer_pause",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_touch_input::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_touch_input-Debug-2c36fc52f4b727b22068.json",
+					"name" : "install_ex_touch_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_transform::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_transform-Debug-ee1fb4956ea94e5d487d.json",
+					"name" : "install_ex_transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_user_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_user_events-Debug-4805e78b58143ee1299b.json",
+					"name" : "install_ex_user_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_utf8::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_utf8-Debug-34b60cde36f783c254ff.json",
+					"name" : "install_ex_utf8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_vertex_buffer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_vertex_buffer-Debug-39190a54f77eb551e0b1.json",
+					"name" : "install_ex_vertex_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_vsync::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_vsync-Debug-def940568e15035c7635.json",
+					"name" : "install_ex_vsync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_window_constraints::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_window_constraints-Debug-bd878ba1bb2572b8c9dc.json",
+					"name" : "install_ex_window_constraints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_window_title::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_window_title-Debug-47822bd9bc16d63bbfe0.json",
+					"name" : "install_ex_window_title",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_windows::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_windows-Debug-9a0fb3ee2456ea2810f1.json",
+					"name" : "install_ex_windows",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "install_ex_winfull::@714eac15f71a94114fdf",
+					"jsonFile" : "target-install_ex_winfull-Debug-fc5ca99d4c572a217926.json",
+					"name" : "install_ex_winfull",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "install_skater::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-install_skater-Debug-5b917f3fc988b7761057.json",
+					"name" : "install_skater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "install_speed::@e11ba447f24865c9c272",
+					"jsonFile" : "target-install_speed-Debug-b9c4c600d17bc4ef7cd0.json",
+					"name" : "install_speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "run_cosmic_protector::@405e6196deeba822ade9",
+					"jsonFile" : "target-run_cosmic_protector-Debug-6544b5bca0e94b967e21.json",
+					"name" : "run_cosmic_protector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_android::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_android-Debug-848bc2fc884c0e164843.json",
+					"name" : "run_ex_android",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_audio_devices::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_audio_devices-Debug-a71c08525967f3f14506.json",
+					"name" : "run_ex_audio_devices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_audio_props::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_audio_props-Debug-1a69b7d893aa0169ded8.json",
+					"name" : "run_ex_audio_props",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_audio_timer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_audio_timer-Debug-0e8faa48e57c3df56233.json",
+					"name" : "run_ex_audio_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_bitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_bitmap-Debug-ef1989da5428c1589248.json",
+					"name" : "run_ex_bitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_bitmap_file::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_bitmap_file-Debug-a4deaa55644b6954cf47.json",
+					"name" : "run_ex_bitmap_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_bitmap_flip::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_bitmap_flip-Debug-f1b6a0cde6137c8eb537.json",
+					"name" : "run_ex_bitmap_flip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_blend::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_blend-Debug-c9cd3fff847a8f318473.json",
+					"name" : "run_ex_blend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_blend2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_blend2-Debug-4cf100dda4deeff92676.json",
+					"name" : "run_ex_blend2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_blend_bench::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_blend_bench-Debug-1a225fb5eb74866ff53e.json",
+					"name" : "run_ex_blend_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_blend_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_blend_target-Debug-7ddeb2fd116bc0f27b75.json",
+					"name" : "run_ex_blend_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_blend_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_blend_test-Debug-d8706bdab080fbca83c8.json",
+					"name" : "run_ex_blend_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_blit::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_blit-Debug-dec94d8d0f7b3d2c4a24.json",
+					"name" : "run_ex_blit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_camera::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_camera-Debug-31eb2c0c564402df593e.json",
+					"name" : "run_ex_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_clip::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_clip-Debug-122d4ef5a3126c82695d.json",
+					"name" : "run_ex_clip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_clipboard::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_clipboard-Debug-ffb3fe1a0bd9c7800b94.json",
+					"name" : "run_ex_clipboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_color2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_color2-Debug-a164946e8aa5eee90fca.json",
+					"name" : "run_ex_color2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_compressed::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_compressed-Debug-f8574a6f2147fc733852.json",
+					"name" : "run_ex_compressed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_config::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_config-Debug-e20f32dbaba11a345ee9.json",
+					"name" : "run_ex_config",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_cpu::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_cpu-Debug-f9c248cef4c5c7d190ae.json",
+					"name" : "run_ex_cpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_depth_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_depth_target-Debug-e0fdef76faee3e5d145a.json",
+					"name" : "run_ex_depth_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_dir::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_dir-Debug-ac6895e3c2d1c81eea2e.json",
+					"name" : "run_ex_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_disable_screensaver::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_disable_screensaver-Debug-c9375788487a9dd685c3.json",
+					"name" : "run_ex_disable_screensaver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_display_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_display_events-Debug-07c2aed09564206d3b6d.json",
+					"name" : "run_ex_display_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_display_options::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_display_options-Debug-b314cbe3d2bbea17a5ff.json",
+					"name" : "run_ex_display_options",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_draw::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_draw-Debug-0a4d3e3fbdd159d70723.json",
+					"name" : "run_ex_draw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_draw_bitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_draw_bitmap-Debug-bdfcd807dc809a68672a.json",
+					"name" : "run_ex_draw_bitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_drawpixels::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_drawpixels-Debug-a5e42668d80ac385695f.json",
+					"name" : "run_ex_drawpixels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_dualies::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_dualies-Debug-c4583251474cb0661a4f.json",
+					"name" : "run_ex_dualies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_expose::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_expose-Debug-ef5ba843807d4861f191.json",
+					"name" : "run_ex_expose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_filter::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_filter-Debug-f8510ea584a3fd2137fc.json",
+					"name" : "run_ex_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_font::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_font-Debug-bd6235a20e5b830482e7.json",
+					"name" : "run_ex_font",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_fs_resize::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_fs_resize-Debug-7688c6573e5472533d08.json",
+					"name" : "run_ex_fs_resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_fs_window::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_fs_window-Debug-4bf2c47b34afc388be82.json",
+					"name" : "run_ex_fs_window",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_get_path::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_get_path-Debug-7b3db725ee2841eb949e.json",
+					"name" : "run_ex_get_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_haiku::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_haiku-Debug-c943da02768078e96e63.json",
+					"name" : "run_ex_haiku",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_haptic::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_haptic-Debug-26db5731a3ad41ca87bf.json",
+					"name" : "run_ex_haptic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_icon::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_icon-Debug-15164a1e071d73bfed0e.json",
+					"name" : "run_ex_icon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_icon2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_icon2-Debug-12d0109db2340fd817a8.json",
+					"name" : "run_ex_icon2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_inject_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_inject_events-Debug-2e28ff6c122a24280d83.json",
+					"name" : "run_ex_inject_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_joystick_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_joystick_events-Debug-32ffcea38f7ab2204edc.json",
+					"name" : "run_ex_joystick_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_joystick_hotplugging::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_joystick_hotplugging-Debug-a5786295d913806fce05.json",
+					"name" : "run_ex_joystick_hotplugging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_keyboard_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_keyboard_events-Debug-2943a4aa8b90c008f35e.json",
+					"name" : "run_ex_keyboard_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_keyboard_focus::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_keyboard_focus-Debug-91a67bcc01eb7c38de51.json",
+					"name" : "run_ex_keyboard_focus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_lines::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_lines-Debug-5b1f2f3b7e7cd59781b0.json",
+					"name" : "run_ex_lines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_loading_thread::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_loading_thread-Debug-538367bdc35f2603c464.json",
+					"name" : "run_ex_loading_thread",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_lockbitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_lockbitmap-Debug-2bf288b24aa2da769253.json",
+					"name" : "run_ex_lockbitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_membmp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_membmp-Debug-4d1f7b2ec2c213bf613d.json",
+					"name" : "run_ex_membmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_mixer_pp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_mixer_pp-Debug-d6016c88b451f7626d97.json",
+					"name" : "run_ex_mixer_pp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_monitorinfo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_monitorinfo-Debug-768cef508216881dfe52.json",
+					"name" : "run_ex_monitorinfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_mouse::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_mouse-Debug-48c7b233649f8b770da1.json",
+					"name" : "run_ex_mouse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_mouse_cursor::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_mouse_cursor-Debug-cd064f21f51b75fbcdd6.json",
+					"name" : "run_ex_mouse_cursor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_mouse_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_mouse_events-Debug-bd1e9b2fc7b9e7bdcb5d.json",
+					"name" : "run_ex_mouse_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_mouse_focus::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_mouse_focus-Debug-32ab23a4c0e98b420a43.json",
+					"name" : "run_ex_mouse_focus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_mouse_warp::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_mouse_warp-Debug-ec5c4b7dbb2a2b1a77bf.json",
+					"name" : "run_ex_mouse_warp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_multisample::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_multisample-Debug-d266a8a28cf1da34260b.json",
+					"name" : "run_ex_multisample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_multisample_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_multisample_target-Debug-048dcdc3d7f7d8f3d705.json",
+					"name" : "run_ex_multisample_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_multiwin::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_multiwin-Debug-09a8edf6d61f5110375b.json",
+					"name" : "run_ex_multiwin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_nodisplay::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_nodisplay-Debug-5be51163f1457051d657.json",
+					"name" : "run_ex_nodisplay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_noframe::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_noframe-Debug-f07a41fc89a9fd4ff5ca.json",
+					"name" : "run_ex_noframe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_palette::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_palette-Debug-a4f737fac0a9255277aa.json",
+					"name" : "run_ex_palette",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_path::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_path-Debug-0184bbacaec69e64c05a.json",
+					"name" : "run_ex_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_path_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_path_test-Debug-45f1587c6f46b5013c40.json",
+					"name" : "run_ex_path_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_pixelformat::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_pixelformat-Debug-73cb0cd3cdb8efd87471.json",
+					"name" : "run_ex_pixelformat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_polygon::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_polygon-Debug-8f230d8f3cc6d552e766.json",
+					"name" : "run_ex_polygon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_premulalpha::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_premulalpha-Debug-efb47f5cebdf95c65fae.json",
+					"name" : "run_ex_premulalpha",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_prim::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_prim-Debug-a20175527b1cef3cfd06.json",
+					"name" : "run_ex_prim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_prim_shader::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_prim_shader-Debug-5dd598ad3d3112c54149.json",
+					"name" : "run_ex_prim_shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_prim_wrap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_prim_wrap-Debug-e148f961dab1403dda0d.json",
+					"name" : "run_ex_prim_wrap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_projection2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_projection2-Debug-78b90550e7f82af1afa6.json",
+					"name" : "run_ex_projection2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_record::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_record-Debug-de74473bd1c27ca88df4.json",
+					"name" : "run_ex_record",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_record_name::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_record_name-Debug-c37f0d85c9adf639f81b.json",
+					"name" : "run_ex_record_name",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_reparent::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_reparent-Debug-8416621d71d769ce320b.json",
+					"name" : "run_ex_reparent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_resample_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_resample_test-Debug-d6803f3f3b011851933b.json",
+					"name" : "run_ex_resample_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_resize::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_resize-Debug-05e062674c91f14748f2.json",
+					"name" : "run_ex_resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_resize2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_resize2-Debug-d4501ce21a5c4f37bba0.json",
+					"name" : "run_ex_resize2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_rotate::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_rotate-Debug-add740df6dc438d2f09c.json",
+					"name" : "run_ex_rotate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_saw::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_saw-Debug-3ac3b5bbec92e7858aca.json",
+					"name" : "run_ex_saw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_scale::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_scale-Debug-c4a89a4b28cd16d0bdea.json",
+					"name" : "run_ex_scale",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_shader::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_shader-Debug-41cca9c7da9b4e81dce8.json",
+					"name" : "run_ex_shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_shader_multitex::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_shader_multitex-Debug-579f7608898b6759aee5.json",
+					"name" : "run_ex_shader_multitex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_shader_target::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_shader_target-Debug-3a9879a31435ce299ad7.json",
+					"name" : "run_ex_shader_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_stream_seek::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_stream_seek-Debug-a04f1628cba92e80e940.json",
+					"name" : "run_ex_stream_seek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_subbitmap::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_subbitmap-Debug-8a1842434e0e157f90d2.json",
+					"name" : "run_ex_subbitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_threads::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_threads-Debug-0869691600a0c9503698.json",
+					"name" : "run_ex_threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_threads2::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_threads2-Debug-af38937a4d7f662e06c5.json",
+					"name" : "run_ex_threads2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_timedwait::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_timedwait-Debug-73f1bd60a015ce2dc04f.json",
+					"name" : "run_ex_timedwait",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_timer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_timer-Debug-c664295d6413b1ccc131.json",
+					"name" : "run_ex_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_timer_pause::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_timer_pause-Debug-2b0d74d1ddf817a17556.json",
+					"name" : "run_ex_timer_pause",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_touch_input::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_touch_input-Debug-6ff7045857d3653e3db1.json",
+					"name" : "run_ex_touch_input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_transform::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_transform-Debug-e901af0db1a7ccc1a737.json",
+					"name" : "run_ex_transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_user_events::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_user_events-Debug-340475a34e849f86c771.json",
+					"name" : "run_ex_user_events",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_utf8::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_utf8-Debug-4d261ccf8b037637e933.json",
+					"name" : "run_ex_utf8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_vertex_buffer::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_vertex_buffer-Debug-2ce117fa34c5f5d484c4.json",
+					"name" : "run_ex_vertex_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_vsync::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_vsync-Debug-d0e59d9d4e5c2a86e284.json",
+					"name" : "run_ex_vsync",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_window_constraints::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_window_constraints-Debug-26da639f549b9da09f2a.json",
+					"name" : "run_ex_window_constraints",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_window_title::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_window_title-Debug-f5f2dd3f31e1c7620dbd.json",
+					"name" : "run_ex_window_title",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_windows::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_windows-Debug-b9141898c5c1bbee75a8.json",
+					"name" : "run_ex_windows",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "run_ex_winfull::@714eac15f71a94114fdf",
+					"jsonFile" : "target-run_ex_winfull-Debug-a345fba88f9b39298023.json",
+					"name" : "run_ex_winfull",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "run_skater::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-run_skater-Debug-616f73e76e71e5d1e7ca.json",
+					"name" : "run_skater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "run_speed::@e11ba447f24865c9c272",
+					"jsonFile" : "target-run_speed-Debug-8c61bdf597f687b756d0.json",
+					"name" : "run_speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "skater::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-skater-Debug-1e53eae09b89870bdf0a.json",
+					"name" : "skater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "skater_apk::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-skater_apk-Debug-a7b77db36beaea492324.json",
+					"name" : "skater_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "speed::@e11ba447f24865c9c272",
+					"jsonFile" : "target-speed-Debug-c8b2c53fa1e4358d8d83.json",
+					"name" : "speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "speed_apk::@e11ba447f24865c9c272",
+					"jsonFile" : "target-speed_apk-Debug-788a4fda163be357e852.json",
+					"name" : "speed_apk",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86",
+		"source" : "Z:/AndroidStudioProjects/allegro5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

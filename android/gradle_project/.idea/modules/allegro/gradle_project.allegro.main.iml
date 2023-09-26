@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../../../addons">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../addons" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../src" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../cmake">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../cmake" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../include">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../include" type="native-header-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../docs">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../docs" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../include/allegro5">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../include/allegro5" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../tests">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../tests" type="native-Source-root" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../demos">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../demos" type="native-Source-root" />
+    </content>
+  </component>
+</module>

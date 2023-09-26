@@ -1,0 +1,226 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/build/intermediates/cxx/Debug/2od605l5/obj/armeabi-v7a/liballegro_main-debug.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_our_library",
+			"add_our_addon_library",
+			"install",
+			"install_our_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/Common.cmake",
+			"addons/main/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 4
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1238,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 172,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 106,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -fno-limit-debug-info  -DDEBUGMODE=1 -DD3D_DEBUG_INFO -fPIC"
+				},
+				{
+					"fragment" : "-DALLEGRO_SRC  -DALLEGRO_LIB_BUILD"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "allegro_main_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "Z:/AndroidStudioProjects/allegro5/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/armeabi-v7a/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "allegro::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "allegro_main::@b7107a580e5578a01e14",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 7,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 7,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/ALLEGRO"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\armeabi-v7a\\liballegro-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\19\\libGLESv2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\19\\libEGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "allegro_main",
+	"nameOnDisk" : "liballegro_main-debug.so",
+	"paths" : 
+	{
+		"build" : "addons/main",
+		"source" : "addons/main"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "addons/main/generic_main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

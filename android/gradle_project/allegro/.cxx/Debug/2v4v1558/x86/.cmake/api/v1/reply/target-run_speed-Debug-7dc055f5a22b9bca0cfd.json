@@ -1,0 +1,80 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_android_app"
+		],
+		"files" : 
+		[
+			"cmake/AndroidApp.cmake",
+			"demos/speed/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "install_speed::@e11ba447f24865c9c272"
+		}
+	],
+	"id" : "run_speed::@e11ba447f24865c9c272",
+	"name" : "run_speed",
+	"paths" : 
+	{
+		"build" : "demos/speed",
+		"source" : "demos/speed"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86/demos/speed/CMakeFiles/run_speed",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86/demos/speed/CMakeFiles/run_speed.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

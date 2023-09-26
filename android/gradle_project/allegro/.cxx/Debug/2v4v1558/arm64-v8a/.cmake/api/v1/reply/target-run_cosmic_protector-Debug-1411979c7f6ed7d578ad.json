@@ -1,0 +1,80 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_android_app"
+		],
+		"files" : 
+		[
+			"cmake/AndroidApp.cmake",
+			"demos/cosmic_protector/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "install_cosmic_protector::@405e6196deeba822ade9"
+		}
+	],
+	"id" : "run_cosmic_protector::@405e6196deeba822ade9",
+	"name" : "run_cosmic_protector",
+	"paths" : 
+	{
+		"build" : "demos/cosmic_protector",
+		"source" : "demos/cosmic_protector"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/arm64-v8a/demos/cosmic_protector/CMakeFiles/run_cosmic_protector",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/arm64-v8a/demos/cosmic_protector/CMakeFiles/run_cosmic_protector.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

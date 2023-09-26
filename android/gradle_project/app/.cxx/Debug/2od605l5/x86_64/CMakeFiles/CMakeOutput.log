@@ -1,0 +1,481 @@
+The target system is: Android - 1 - x86_64
+The host system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;
+Id flags: -c;--target=x86_64-none-linux-android21 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security;;;-std=c++14
+Id flags: -c;--target=x86_64-none-linux-android21 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_6bb50 && [1/2] Building C object CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7, version 
+ (in-process)
+ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -resource-dir Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_6bb50.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o -x c Z:/android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking C executable cmTC_6bb50
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7, version 
+ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_6bb50 Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_6bb50 && [1/2] Building C object CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7  version ]
+  ignore line: [ (in-process)]
+  ignore line: [ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -resource-dir Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_6bb50.dir\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o -x c Z:/android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_6bb50]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7  version ]
+  link line: [ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_6bb50 Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6bb50] ==> ignore
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_6bb50.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  remove lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  implicit dirs: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_c2e01 && [1/2] Building CXX object CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7, version 
+ (in-process)
+ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -resource-dir Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_c2e01.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -std=c++14 -fdeprecated-macro -fdebug-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o -x c++ Z:/android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android
+ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_c2e01
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin
+Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7, version 
+ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_c2e01 Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+    add: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  collapse include dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  implicit include dirs: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_c2e01 && [1/2] Building CXX object CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7  version ]
+  ignore line: [ (in-process)]
+  ignore line: [ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple x86_64-none-linux-android21 -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -target-feature +sse4.2 -target-feature +popcnt -target-feature +cx16 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -resource-dir Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6 -dependency-file "CMakeFiles\\cmTC_c2e01.dir\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include -internal-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -std=c++14 -fdeprecated-macro -fdebug-compilation-dir=Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o -x c++ Z:/android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6git default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/include]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/x86_64-linux-android]
+  ignore line: [ Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_c2e01]
+  ignore line: [Android (8490178  based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  ignore line: [Found CUDA installation: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7  version ]
+  link line: [ "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_c2e01 Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android -LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl -lc Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a -l:libunwind.a -ldl Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/ld] ==> ignore
+    arg [--sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c2e01] ==> ignore
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> obj [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-LZ:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_c2e01.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lm] ==> lib [m]
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a] ==> lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> obj [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  remove lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  remove lib [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/libclang_rt.builtins-x86_64-android.a]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit objs: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+  implicit dirs: [Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/x86_64;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android;Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_d2bb3 && [1/2] Building C object CMakeFiles/cmTC_d2bb3.dir/ALLEGRO_HAVE_DIRENT_H.c.o
+[2/2] Linking C executable cmTC_d2bb3
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_105db && [1/2] Building C object CMakeFiles/cmTC_105db.dir/ALLEGRO_HAVE_INTTYPES_H.c.o
+[2/2] Linking C executable cmTC_105db
+
+
+
+Determining if files linux/input.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_ff048 && [1/2] Building C object CMakeFiles/cmTC_ff048.dir/ALLEGRO_HAVE_LINUX_INPUT_H.c.o
+[2/2] Linking C executable cmTC_ff048
+
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_9b817 && [1/2] Building C object CMakeFiles/cmTC_9b817.dir/ALLEGRO_HAVE_STDBOOL_H.c.o
+[2/2] Linking C executable cmTC_9b817
+
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_b9315 && [1/2] Building C object CMakeFiles/cmTC_b9315.dir/ALLEGRO_HAVE_STDINT_H.c.o
+[2/2] Linking C executable cmTC_b9315
+
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_0956d && [1/2] Building C object CMakeFiles/cmTC_0956d.dir/ALLEGRO_HAVE_SYS_STAT_H.c.o
+[2/2] Linking C executable cmTC_0956d
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_ea571 && [1/2] Building C object CMakeFiles/cmTC_ea571.dir/ALLEGRO_HAVE_SYS_TIME_H.c.o
+[2/2] Linking C executable cmTC_ea571
+
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_3845f && [1/2] Building C object CMakeFiles/cmTC_3845f.dir/ALLEGRO_HAVE_TIME_H.c.o
+[2/2] Linking C executable cmTC_3845f
+
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_59cf3 && [1/2] Building C object CMakeFiles/cmTC_59cf3.dir/ALLEGRO_HAVE_SYS_UTSNAME_H.c.o
+[2/2] Linking C executable cmTC_59cf3
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_6a1e3 && [1/2] Building C object CMakeFiles/cmTC_6a1e3.dir/ALLEGRO_HAVE_SYS_TYPES_H.c.o
+[2/2] Linking C executable cmTC_6a1e3
+
+
+
+Determining if files linux/soundcard.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_f8946 && [1/2] Building C object CMakeFiles/cmTC_f8946.dir/ALLEGRO_HAVE_LINUX_SOUNDCARD_H.c.o
+[2/2] Linking C executable cmTC_f8946
+
+
+
+Determining if files sys/inotify.h exist passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_9933d && [1/2] Building C object CMakeFiles/cmTC_9933d.dir/ALLEGRO_HAVE_SYS_INOTIFY_H.c.o
+[2/2] Linking C executable cmTC_9933d
+
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_d4a8d && [1/2] Building C object CMakeFiles/cmTC_d4a8d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d4a8d
+
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_4e7d5 && [1/2] Building C object CMakeFiles/cmTC_4e7d5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4e7d5
+
+
+
+Determining if the function mprotect exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_fcbbf && [1/2] Building C object CMakeFiles/cmTC_fcbbf.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fcbbf
+
+
+
+Determining if the function sched_yield exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_f2568 && [1/2] Building C object CMakeFiles/cmTC_f2568.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_f2568
+
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_3e995 && [1/2] Building C object CMakeFiles/cmTC_3e995.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3e995
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_d3760 && [1/2] Building C object CMakeFiles/cmTC_d3760.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d3760
+
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_b48a2 && [1/2] Building C object CMakeFiles/cmTC_b48a2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b48a2
+
+
+
+Determining if the function strerror_r exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_0469d && [1/2] Building C object CMakeFiles/cmTC_0469d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_0469d
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_8c20c && [1/2] Building C object CMakeFiles/cmTC_8c20c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8c20c
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_7cbb4 && [1/2] Building C object CMakeFiles/cmTC_7cbb4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7cbb4
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_24b86 && [1/2] Building C object CMakeFiles/cmTC_24b86.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_24b86
+
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_e80b9 && [1/2] Building C object CMakeFiles/cmTC_e80b9.dir/ALLEGRO_HAVE__BOOL.c.o
+[2/2] Linking C executable cmTC_e80b9
+
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_VA_COPY succeeded with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_4f245 && [1/2] Building C object CMakeFiles/cmTC_4f245.dir/src.c.o
+[2/2] Linking C executable cmTC_4f245
+
+
+Source file was:
+
+    #include <stdarg.h>
+    int main(void) {
+        va_list a, b;
+        va_copy(a, b);
+        return 0;
+    }

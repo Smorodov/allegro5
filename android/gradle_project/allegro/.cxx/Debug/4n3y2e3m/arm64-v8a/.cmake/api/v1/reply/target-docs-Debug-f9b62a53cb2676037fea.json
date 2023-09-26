@@ -1,0 +1,35 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"docs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 141,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "docs::@25ace4044b5cefe8d37f",
+	"name" : "docs",
+	"paths" : 
+	{
+		"build" : "docs",
+		"source" : "docs"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

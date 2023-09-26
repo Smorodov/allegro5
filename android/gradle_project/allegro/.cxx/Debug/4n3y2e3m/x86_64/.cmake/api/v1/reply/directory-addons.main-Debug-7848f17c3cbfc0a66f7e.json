@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"install_our_library",
+			"add_our_library",
+			"add_our_addon_library"
+		],
+		"files" : 
+		[
+			"cmake/Common.cmake",
+			"addons/main/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Z:/AndroidStudioProjects/allegro5/android/gradle_project/allegro/build/intermediates/cxx/Debug/4n3y2e3m/obj/x86_64/liballegro_main-debug.so"
+			],
+			"targetId" : "allegro_main::@b7107a580e5578a01e14",
+			"targetIndex" : 7,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "addons/main",
+		"source" : "addons/main"
+	}
+}

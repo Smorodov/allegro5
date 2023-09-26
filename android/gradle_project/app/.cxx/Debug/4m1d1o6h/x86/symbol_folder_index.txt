@@ -1,0 +1,1 @@
+Z:\AndroidStudioProjects\allegro5\android\gradle_project\app\build\intermediates\cxx\Debug\4m1d1o6h\obj\x86

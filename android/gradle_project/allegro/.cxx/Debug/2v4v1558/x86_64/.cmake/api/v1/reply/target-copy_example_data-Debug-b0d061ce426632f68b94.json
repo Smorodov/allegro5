@@ -1,0 +1,739 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"copy_data_dir_to_build"
+		],
+		"files" : 
+		[
+			"cmake/Common.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1143,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 375,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "copy_example_data::@6890427a1f51a3e7e1df",
+	"name" : "copy_example_data",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/CMakeFiles/copy_example_data",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/CMakeFiles/copy_example_data.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/DejaVuSans.LICENSE.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/DejaVuSans.ttf.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/a4_font.fnt.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/a4_font.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/alexlogo.bmp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/alexlogo.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/allegro.pcx.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/bkg.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/blue_box.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/bmpfont.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/cursor.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_physfs.zip.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_prim_shader_pixel.glsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_prim_shader_pixel.hlsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_prim_shader_vertex.glsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_prim_shader_vertex.hlsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_prim_wrap_pixel.glsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_prim_wrap_pixel.hlsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_shader_multitex_pixel.glsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_shader_multitex_pixel.hlsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_shader_palette_pixel.glsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_shader_pixel.glsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_shader_pixel.hlsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_shader_vertex.glsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_shader_vertex.hlsl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/ex_ttf.ini.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/exconfig.ini.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/fakeamp.bmp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/fixed_font.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/font.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/gradient1.bmp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/green.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_0.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_1.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_2.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_3.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_4.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_5.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_6.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_7.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/air_effect.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/black_bead_opaque_A.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/dropshadow.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth4.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_0.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_1.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_2.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_3.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_4.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_5.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_6.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/earth_7.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_0.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_1.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_2.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_3.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_4.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_5.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_6.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/fire_7.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/flame2.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/healthy_glow.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/main_flame2.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/overlay_pretty.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/select.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_0.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_1.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_2.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_3.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_4.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_5.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_6.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_7.ogg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/water_droplets.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/haiku/wind3.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/icon.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/icon.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mask.pcx.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha.pcx.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha256x256.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha256x256.webp.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha_dxt1.dds.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha_dxt3.dds.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha_dxt5.dds.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/mysha_pal.png.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/obp.jpg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/planet.pcx.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/sample.cfg.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/texture.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/texture2.tga.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/welcome.voc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/2v4v1558/x86_64/examples/data/welcome.wav.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,90 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"install_our_library",
+			"add_our_library",
+			"add_our_addon_library",
+			"install_our_headers"
+		],
+		"files" : 
+		[
+			"cmake/Common.cmake",
+			"addons/acodec/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 379,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 386,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/build/intermediates/cxx/Debug/2od605l5/obj/arm64-v8a/liballegro_acodec-debug.so"
+			],
+			"targetId" : "allegro_acodec::@1f14d5102b1e331d1d91",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/allegro5",
+			"paths" : 
+			[
+				"addons/acodec/allegro5/allegro_acodec.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "addons/acodec",
+		"source" : "addons/acodec"
+	}
+}

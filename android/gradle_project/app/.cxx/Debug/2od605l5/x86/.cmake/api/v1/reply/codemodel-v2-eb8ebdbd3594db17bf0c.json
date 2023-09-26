@@ -1,0 +1,556 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e1424fe20bcc3b649d72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"build" : "addons",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons-Debug-d126f8b8bbff87a72873.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "addons"
+				},
+				{
+					"build" : "addons/primitives",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.primitives-Debug-1038e679e0abb8df785b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/primitives",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "addons/image",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.image-Debug-285149591f12a13647d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/image",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "addons/font",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.font-Debug-fae4391770ec5610a113.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/font",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "addons/audio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.audio-Debug-7ff50ad58817af79d88b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/audio",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "addons/acodec",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.acodec-Debug-56571de4283d14a5a61d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/acodec",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "addons/color",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.color-Debug-035c20e83c5ecb8a6694.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/color",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "addons/memfile",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.memfile-Debug-4058d4ac74f6ade5990b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/memfile",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "addons/native_dialog",
+					"jsonFile" : "directory-addons.native_dialog-Debug-cf5c7fc35b32bba8ab38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/native_dialog"
+				},
+				{
+					"build" : "addons/video",
+					"jsonFile" : "directory-addons.video-Debug-a53f29ac7da7f7cf05c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/video"
+				},
+				{
+					"build" : "addons/main",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-addons.main-Debug-ac59749c524b362caf70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "addons/main",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "android",
+					"jsonFile" : "directory-android-Debug-47d5a4e59818a894c2f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "android",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "demos/cosmic_protector",
+					"jsonFile" : "directory-demos.cosmic_protector-Debug-729a2c5e3659873c3389.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/cosmic_protector",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						14,
+						17
+					]
+				},
+				{
+					"build" : "demos/speed",
+					"jsonFile" : "directory-demos.speed-Debug-93e69e0681bfff72e6bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/speed",
+					"targetIndexes" : 
+					[
+						16,
+						19,
+						22,
+						23
+					]
+				},
+				{
+					"build" : "demos/skater",
+					"jsonFile" : "directory-demos.skater-Debug-249f24264b27c1a7a5a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/skater",
+					"targetIndexes" : 
+					[
+						15,
+						18,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "demos/shooter",
+					"jsonFile" : "directory-demos.shooter-Debug-56d86201d7773b29bd88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "demos/shooter"
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests"
+				},
+				{
+					"build" : "docs",
+					"jsonFile" : "directory-docs-Debug-a0a153f7bea992cedd45.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "docs",
+					"targetIndexes" : 
+					[
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					],
+					"name" : "ALLEGRO",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 12,
+					"id" : "aar::@7e66ad4de370faaec58f",
+					"jsonFile" : "target-aar-Debug-7724d0283d38ca5e0f7a.json",
+					"name" : "aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "allegro::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-allegro-Debug-b34860df08fa5c8fbbb3.json",
+					"name" : "allegro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "allegro_acodec::@1f14d5102b1e331d1d91",
+					"jsonFile" : "target-allegro_acodec-Debug-cb5be6436d4840f8b586.json",
+					"name" : "allegro_acodec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "allegro_audio::@5053eabd6a8b5b3704f0",
+					"jsonFile" : "target-allegro_audio-Debug-ad078f670f8c1a1cde11.json",
+					"name" : "allegro_audio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "allegro_color::@6867cadcad80a4c40f59",
+					"jsonFile" : "target-allegro_color-Debug-f977fefa03092c33ea2f.json",
+					"name" : "allegro_color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "allegro_font::@4c3861bae7c8b904828d",
+					"jsonFile" : "target-allegro_font-Debug-e84320535c06017d9f86.json",
+					"name" : "allegro_font",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "allegro_image::@6f6bc93697b3176762c6",
+					"jsonFile" : "target-allegro_image-Debug-ec23f6ca3019683a6285.json",
+					"name" : "allegro_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "allegro_main::@b7107a580e5578a01e14",
+					"jsonFile" : "target-allegro_main-Debug-ea92b6a007978953ea4f.json",
+					"name" : "allegro_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "allegro_memfile::@5ef22e1139e26f6a712e",
+					"jsonFile" : "target-allegro_memfile-Debug-17c31ad504fb8a2a4b1c.json",
+					"name" : "allegro_memfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "allegro_primitives::@4926f8e3fd45ed59f669",
+					"jsonFile" : "target-allegro_primitives-Debug-74743f8ec57581876b4a.json",
+					"name" : "allegro_primitives",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_example_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_example_data-Debug-1630676921dc418eeb4b.json",
+					"name" : "copy_example_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "cosmic_protector::@405e6196deeba822ade9",
+					"jsonFile" : "target-cosmic_protector-Debug-e7fa380b289039d42ac6.json",
+					"name" : "cosmic_protector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "cosmic_protector_apk::@405e6196deeba822ade9",
+					"jsonFile" : "target-cosmic_protector_apk-Debug-57dc92d3fed4c4cd57dc.json",
+					"name" : "cosmic_protector_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "docs::@25ace4044b5cefe8d37f",
+					"jsonFile" : "target-docs-Debug-f9b62a53cb2676037fea.json",
+					"name" : "docs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "install_cosmic_protector::@405e6196deeba822ade9",
+					"jsonFile" : "target-install_cosmic_protector-Debug-51a7b6f8f6ac6104a691.json",
+					"name" : "install_cosmic_protector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "install_skater::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-install_skater-Debug-aceec4d9c75a47979dfe.json",
+					"name" : "install_skater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "install_speed::@e11ba447f24865c9c272",
+					"jsonFile" : "target-install_speed-Debug-23d088bf745961259d7e.json",
+					"name" : "install_speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "run_cosmic_protector::@405e6196deeba822ade9",
+					"jsonFile" : "target-run_cosmic_protector-Debug-1f966d8a7554b8fa8055.json",
+					"name" : "run_cosmic_protector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "run_skater::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-run_skater-Debug-6e0bc747aba679fbf0a7.json",
+					"name" : "run_skater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "run_speed::@e11ba447f24865c9c272",
+					"jsonFile" : "target-run_speed-Debug-39e4955ab6422329519e.json",
+					"name" : "run_speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "skater::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-skater-Debug-7ac7011b49b9ec1661e8.json",
+					"name" : "skater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "skater_apk::@25d9945ddc71320ebf4f",
+					"jsonFile" : "target-skater_apk-Debug-06474261c83dd101c487.json",
+					"name" : "skater_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "speed::@e11ba447f24865c9c272",
+					"jsonFile" : "target-speed-Debug-315e55d639207a9acd55.json",
+					"name" : "speed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "speed_apk::@e11ba447f24865c9c272",
+					"jsonFile" : "target-speed_apk-Debug-65a94e790f6801014a6a.json",
+					"name" : "speed_apk",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86",
+		"source" : "Z:/AndroidStudioProjects/allegro5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

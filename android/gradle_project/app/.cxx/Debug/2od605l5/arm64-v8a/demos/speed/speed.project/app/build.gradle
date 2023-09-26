@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        //applicationId "org.liballeg.app"
+        minSdkVersion 17
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+       externalNativeBuild {
+          cmake {
+             cppFlags ''
+             arguments "-DANDROID_STL=c++_shared","-DWANT_EXAMPLES=OFF"
+             cppFlags '-std=c++14'
+          }
+       }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+   namespace 'org.liballeg.app'
+   externalNativeBuild {
+      cmake {
+         path file('../../../CMakeLists.txt')
+         version '3.22.1'
+      }
+   }
+
+}
+
+dependencies {
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+   implementation  fileTree(dir: 'libs', include: ['*.jar'])
+   implementation project(path: ':allegro')
+   //implementation 'org.liballeg:allegro5-release:5.2.7.0'
+   //implementation 'org.liballeg:allegro5-debug:5.2.7.0'
+   //implementation  "org.liballeg.android:allegro:1.0@aar"
+}
+

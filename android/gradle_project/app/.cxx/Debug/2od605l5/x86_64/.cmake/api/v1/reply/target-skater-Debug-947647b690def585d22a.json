@@ -1,0 +1,1074 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "demos/skater/skater.project/libskater.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_android_app",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/AndroidApp.cmake",
+			"demos/skater/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 106,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -fno-limit-debug-info  -DDEBUGMODE=1 -DD3D_DEBUG_INFO -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "skater_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "Z:/AndroidStudioProjects/allegro5/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/acodec"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/audio"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/font"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/image"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/main"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/primitives"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			],
+			"sysroot" : 
+			{
+				"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "allegro::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_font::@4c3861bae7c8b904828d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_primitives::@4926f8e3fd45ed59f669"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_image::@6f6bc93697b3176762c6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_audio::@5053eabd6a8b5b3704f0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_color::@6867cadcad80a4c40f59"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_acodec::@1f14d5102b1e331d1d91"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_main::@b7107a580e5578a01e14"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_memfile::@5ef22e1139e26f6a712e"
+		}
+	],
+	"id" : "skater::@25d9945ddc71320ebf4f",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_primitives-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_image-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_font-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_acodec-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_color-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_memfile-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_main-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro_audio-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\21\\libOpenSLES.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\2od605l5\\obj\\x86_64\\liballegro-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\21\\libGLESv2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\21\\libEGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "skater",
+	"nameOnDisk" : "libskater.so",
+	"paths" : 
+	{
+		"build" : "demos/skater",
+		"source" : "demos/skater"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				58,
+				60,
+				63
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				53,
+				54,
+				55,
+				56,
+				57,
+				59,
+				61,
+				62,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/anim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/background_scroller.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/credits.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/fps.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/framework.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/game.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/gamepad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/global.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/intro.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/keyboard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/level_alloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/level.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/level_file.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/level_state.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_about.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_controls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_graphics.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_options.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_sound.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/menu_success.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/mouse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/music.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/physics.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/quadtree.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/screenshot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/skater.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/token.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/transition.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/skater/src/vcontroller.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/bananas.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/cherries.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/cloud.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/dooropen.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/doorshut.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/exitsign.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/grass.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/ice.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/icecream.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/icetip.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/orange.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skatefast.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skatemed.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater1.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater2.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater3.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater4.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skateslow.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/soil.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/sweet.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/water.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/ding.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/dooropen.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/pop.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/skating.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/wave.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/back.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/button.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/cancunsmall.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/endoflevel.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/intro_music.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/logofont.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/menu_music.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/skate2.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/welcome.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/level.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/readme.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/thanks.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/bananas.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/cherries.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/cloud.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/dooropen.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/doorshut.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/exitsign.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/grass.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/ice.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/icecream.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/icetip.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/orange.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skatefast.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skatemed.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater1.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater2.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater3.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skater4.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/skateslow.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/soil.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/sweet.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/graphics/water.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/ding.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/dooropen.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/pop.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/skating.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/audio/wave.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/back.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/button.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/cancunsmall.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/endoflevel.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/intro_music.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/logofont.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/menu_music.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/skate2.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/menu/welcome.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/level.txt.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/readme.txt.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/2od605l5/x86_64/demos/skater/skater.project/app/src/main/assets/data/thanks.txt.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

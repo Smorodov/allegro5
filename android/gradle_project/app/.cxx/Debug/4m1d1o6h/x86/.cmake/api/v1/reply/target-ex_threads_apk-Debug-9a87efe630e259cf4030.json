@@ -1,0 +1,315 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_android_app",
+			"example",
+			"add_custom_command"
+		],
+		"files" : 
+		[
+			"cmake/AndroidApp.cmake",
+			"examples/Helper.cmake",
+			"examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "allegro::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "allegro_image::@6f6bc93697b3176762c6"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "allegro_primitives::@4926f8e3fd45ed59f669"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "allegro_font::@4c3861bae7c8b904828d"
+		},
+		{
+			"id" : "aar::@7e66ad4de370faaec58f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "allegro_main::@b7107a580e5578a01e14"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "allegro_color::@6867cadcad80a4c40f59"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "allegro_memfile::@5ef22e1139e26f6a712e"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "allegro_audio::@5053eabd6a8b5b3704f0"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "allegro_acodec::@1f14d5102b1e331d1d91"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "ex_threads::@714eac15f71a94114fdf"
+		}
+	],
+	"id" : "ex_threads_apk::@714eac15f71a94114fdf",
+	"name" : "ex_threads_apk",
+	"paths" : 
+	{
+		"build" : "examples",
+		"source" : "examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/CMakeFiles/ex_threads_apk",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/CMakeFiles/ex_threads_apk.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/build/outputs/apk/debug/app-debug.apk.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/libs/allegro.aar.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/java/org/liballeg/app/MainActivity.java.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_acodec-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_audio-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_color-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_font-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_image-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_main-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_memfile-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/liballegro_primitives-debug.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/app/src/main/jniLibs/x86/libnative-lib.so.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/build.gradle.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/gradle.properties.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/gradle/wrapper/gradle-wrapper.jar.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/gradle/wrapper/gradle-wrapper.properties.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_threads.project/gradlew.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,1 @@
+Z:\AndroidStudioProjects\allegro5\android\gradle_project\app\build\intermediates\cxx\Debug\2od605l5\obj\arm64-v8a

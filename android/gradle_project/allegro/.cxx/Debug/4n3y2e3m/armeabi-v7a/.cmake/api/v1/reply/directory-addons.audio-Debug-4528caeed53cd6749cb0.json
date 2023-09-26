@@ -1,0 +1,90 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"install_our_library",
+			"add_our_library",
+			"add_our_addon_library",
+			"install_our_headers"
+		],
+		"files" : 
+		[
+			"cmake/Common.cmake",
+			"addons/audio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 215,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 222,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 252,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Z:/AndroidStudioProjects/allegro5/android/gradle_project/allegro/build/intermediates/cxx/Debug/4n3y2e3m/obj/armeabi-v7a/liballegro_audio-debug.so"
+			],
+			"targetId" : "allegro_audio::@5053eabd6a8b5b3704f0",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/allegro5",
+			"paths" : 
+			[
+				"addons/audio/allegro5/allegro_audio.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "addons/audio",
+		"source" : "addons/audio"
+	}
+}

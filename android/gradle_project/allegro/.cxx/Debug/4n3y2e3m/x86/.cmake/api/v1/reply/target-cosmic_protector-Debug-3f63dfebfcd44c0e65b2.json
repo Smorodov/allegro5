@@ -1,0 +1,1064 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "demos/cosmic_protector/cosmic_protector.project/libcosmic_protector.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_android_app",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/AndroidApp.cmake",
+			"demos/cosmic_protector/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 106,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++14 -msse -W -Wall -Wpointer-arith -fno-limit-debug-info  -DDEBUGMODE=1 -DD3D_DEBUG_INFO -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "cosmic_protector_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "Z:/AndroidStudioProjects/allegro5/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "Z:/AndroidStudioProjects/allegro5/android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/demos/cosmic_protector/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/main"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/image"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/font"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/audio"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/acodec"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "Z:/AndroidStudioProjects/allegro5/addons/primitives"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			],
+			"sysroot" : 
+			{
+				"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "allegro::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_primitives::@4926f8e3fd45ed59f669"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_image::@6f6bc93697b3176762c6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_audio::@5053eabd6a8b5b3704f0"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_color::@6867cadcad80a4c40f59"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_acodec::@1f14d5102b1e331d1d91"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_font::@4c3861bae7c8b904828d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_main::@b7107a580e5578a01e14"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "allegro_memfile::@5ef22e1139e26f6a712e"
+		}
+	],
+	"id" : "cosmic_protector::@405e6196deeba822ade9",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_primitives-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_image-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_font-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_acodec-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_color-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_memfile-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_main-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_audio-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libOpenSLES.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libGLESv2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libEGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "cosmic_protector",
+	"nameOnDisk" : "libcosmic_protector.so",
+	"paths" : 
+	{
+		"build" : "demos/cosmic_protector",
+		"source" : "demos/cosmic_protector"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				46,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Asteroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/BitmapResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Bullet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/ButtonWidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Debug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/DisplayResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Entity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Explosion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/FontResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/GUI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Input.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/LargeAsteroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/LargeBullet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/LargeSlowBullet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/MediumAsteroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Player.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/PowerUp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/Resource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/ResourceManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/SampleResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/StreamResource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/SmallAsteroid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/SmallBullet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/UFO.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/cosmic_protector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/collision.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/joypad_dummy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/logic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/render.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/sound.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "demos/cosmic_protector/src/wave.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/background.jpg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/icon48.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_asteroid.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_bullet.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_0.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_1.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_2.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_3.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_4.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_font.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/life_powerup.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/logo.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/medium_asteroid.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ship.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ship_icon.tga",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ship_trans.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_asteroid.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_bullet.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_0.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_1.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_2.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_3.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_4.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_font.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/trail.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ufo0.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ufo1.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ufo2.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/weapon_powerup.png",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/big_explosion.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/collision.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/fire_large.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/fire_small.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/game_music.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/powerup.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/small_explosion.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/title_music.ogg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/background.jpg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/icon48.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_asteroid.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_bullet.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_0.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_1.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_2.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_3.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_explosion_4.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/large_font.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/life_powerup.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/logo.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/medium_asteroid.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ship.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ship_icon.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ship_trans.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_asteroid.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_bullet.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_0.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_1.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_2.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_3.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_explosion_4.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/small_font.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/trail.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ufo0.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ufo1.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/ufo2.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/gfx/weapon_powerup.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/big_explosion.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/collision.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/fire_large.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/fire_small.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/game_music.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/powerup.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/small_explosion.ogg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/allegro/.cxx/Debug/4n3y2e3m/x86/demos/cosmic_protector/cosmic_protector.project/app/src/main/assets/data/sfx/title_music.ogg.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

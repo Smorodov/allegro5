@@ -1,0 +1,238 @@
+{
+  "buildFiles": [
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\acodec\\allegro5\\internal\\aintern_acodec_cfg.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\acodec\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\audio\\allegro5\\internal\\aintern_audio_cfg.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\audio\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\color\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\font\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\image\\allegro5\\internal\\aintern_image_cfg.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\image\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\main\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\memfile\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\native_dialog\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\primitives\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\video\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\android\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\AllegroConfig.cmake.in",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\AndroidApp.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\Common.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FileList.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindDUMB.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindFLAC.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindFreeImage.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindMiniMP3.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOgg.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOpenGLES2.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOpenSL.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOpus.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindTheora.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindVorbis.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\PreventInSourceBuilds.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\cosmic_protector\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\shooter\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\skater\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\speed\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\docs\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\docs\\src\\refman\\allegro_version.tex.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\include\\allegro5\\platform\\alplatf.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\tests\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "Z:\\android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "Z:\\android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "allegro_audio::@5053eabd6a8b5b3704f0": {
+      "artifactName": "allegro_audio",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_audio-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "copy_example_data::@6890427a1f51a3e7e1df": {
+      "artifactName": "copy_example_data",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "allegro_image::@6f6bc93697b3176762c6": {
+      "artifactName": "allegro_image",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_image-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "allegro_main::@b7107a580e5578a01e14": {
+      "artifactName": "allegro_main",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_main-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "cosmic_protector::@405e6196deeba822ade9": {
+      "artifactName": "cosmic_protector",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\x86\\demos\\cosmic_protector\\cosmic_protector.project\\libcosmic_protector.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_primitives-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_image-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_font-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_acodec-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_color-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_memfile-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_main-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "run_cosmic_protector::@405e6196deeba822ade9": {
+      "artifactName": "run_cosmic_protector",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "allegro::@6890427a1f51a3e7e1df": {
+      "artifactName": "allegro",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so",
+      "runtimeFiles": []
+    },
+    "allegro_acodec::@1f14d5102b1e331d1d91": {
+      "artifactName": "allegro_acodec",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_acodec-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "cosmic_protector_apk::@405e6196deeba822ade9": {
+      "artifactName": "cosmic_protector_apk",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "install_skater::@25d9945ddc71320ebf4f": {
+      "artifactName": "install_skater",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "install_cosmic_protector::@405e6196deeba822ade9": {
+      "artifactName": "install_cosmic_protector",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "install_speed::@e11ba447f24865c9c272": {
+      "artifactName": "install_speed",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "run_skater::@25d9945ddc71320ebf4f": {
+      "artifactName": "run_skater",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "aar::@7e66ad4de370faaec58f": {
+      "artifactName": "aar",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "skater::@25d9945ddc71320ebf4f": {
+      "artifactName": "skater",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\x86\\demos\\skater\\skater.project\\libskater.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_primitives-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_image-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_font-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_acodec-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_color-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_memfile-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_main-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "skater_apk::@25d9945ddc71320ebf4f": {
+      "artifactName": "skater_apk",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "allegro_color::@6867cadcad80a4c40f59": {
+      "artifactName": "allegro_color",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_color-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "run_speed::@e11ba447f24865c9c272": {
+      "artifactName": "run_speed",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "allegro_primitives::@4926f8e3fd45ed59f669": {
+      "artifactName": "allegro_primitives",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_primitives-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "speed::@e11ba447f24865c9c272": {
+      "artifactName": "speed",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\x86\\demos\\speed\\speed.project\\libspeed.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_primitives-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_image-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_font-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_acodec-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_color-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_memfile-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_main-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "allegro_font::@4c3861bae7c8b904828d": {
+      "artifactName": "allegro_font",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_font-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "allegro_memfile::@5ef22e1139e26f6a712e": {
+      "artifactName": "allegro_memfile",
+      "abi": "x86",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro_memfile-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\x86\\liballegro-debug.so"
+      ]
+    },
+    "speed_apk::@e11ba447f24865c9c272": {
+      "artifactName": "speed_apk",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "docs::@25ace4044b5cefe8d37f": {
+      "artifactName": "docs",
+      "abi": "x86",
+      "runtimeFiles": []
+    }
+  }
+}

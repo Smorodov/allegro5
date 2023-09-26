@@ -1,0 +1,593 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "examples/ex_rotate.project/libex_rotate.so"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_android_app",
+			"example",
+			"target_link_libraries",
+			"add_dependencies",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"cmake/AndroidApp.cmake",
+			"examples/Helper.cmake",
+			"examples/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 1
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 106,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -fno-limit-debug-info  -DDEBUGMODE=1 -DD3D_DEBUG_INFO -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ex_rotate_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "Z:/AndroidStudioProjects/allegro5/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/acodec"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/audio"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/color"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/font"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/image"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/main"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/memfile"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/native_dialog"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/physfs"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/primitives"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/shader"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/ttf"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "Z:/AndroidStudioProjects/allegro5/examples/../addons/video"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "copy_example_data::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_image::@6f6bc93697b3176762c6"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_primitives::@4926f8e3fd45ed59f669"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_font::@4c3861bae7c8b904828d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_main::@b7107a580e5578a01e14"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_color::@6867cadcad80a4c40f59"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_memfile::@5ef22e1139e26f6a712e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_audio::@5053eabd6a8b5b3704f0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "allegro_acodec::@1f14d5102b1e331d1d91"
+		}
+	],
+	"id" : "ex_rotate::@714eac15f71a94114fdf",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_primitives-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_image-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_font-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_acodec-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_color-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_memfile-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_main-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro_audio-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libOpenSLES.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\..\\..\\build\\intermediates\\cxx\\Debug\\4m1d1o6h\\obj\\x86\\liballegro-debug.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libGLESv2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libEGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "ex_rotate",
+	"nameOnDisk" : "libex_rotate.so",
+	"paths" : 
+	{
+		"build" : "examples",
+		"source" : "examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				4,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				13,
+				14,
+				17,
+				18
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				12,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "examples/ex_rotate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/a4_font.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/alexlogo.bmp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/alexlogo.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/allegro.pcx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/bkg.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/bmpfont.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/cursor.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/fakeamp.bmp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/fixed_font.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/font.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/gradient1.bmp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/haiku/air_effect.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/icon.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/mysha.pcx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/mysha256x256.png",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/obp.jpg",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/texture.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/texture2.tga",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/a4_font.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/alexlogo.bmp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/alexlogo.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/allegro.pcx.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/bkg.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/bmpfont.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/cursor.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/fakeamp.bmp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/fixed_font.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/font.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/gradient1.bmp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/haiku/air_effect.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/icon.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/mysha.pcx.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/mysha256x256.png.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/obp.jpg.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/texture.tga.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/examples/ex_rotate.project/app/src/main/assets/data/texture2.tga.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

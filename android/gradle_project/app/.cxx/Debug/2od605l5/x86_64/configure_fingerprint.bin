@@ -1,0 +1,108 @@
+C/C++ Structured Log4
+2
+0Z:\AndroidStudioProjects\allegro5\CMakeLists.txtC
+A
+?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	Βϋβ¬1αΟ Θι¥µ¬1;
+9
+7Z:\AndroidStudioProjects\allegro5\addons\CMakeLists.txt	Βϋβ¬1P Νι¥µ¬1B
+@
+>Z:\AndroidStudioProjects\allegro5\addons\acodec\CMakeLists.txt	Βϋβ¬1Χd Ξι¥µ¬1`
+^
+\Z:\AndroidStudioProjects\allegro5\addons\acodec\allegro5\internal\aintern_acodec_cfg.h.cmake	Βϋβ¬1ζ Οι¥µ¬1A
+?
+=Z:\AndroidStudioProjects\allegro5\addons\audio\CMakeLists.txt	Βϋβ¬16 Υι¥µ¬1^
+\
+ZZ:\AndroidStudioProjects\allegro5\addons\audio\allegro5\internal\aintern_audio_cfg.h.cmake	Βϋβ¬1‚ Χι¥µ¬1A
+?
+=Z:\AndroidStudioProjects\allegro5\addons\color\CMakeLists.txt	Βϋβ¬1 όι¥µ¬1@
+>
+<Z:\AndroidStudioProjects\allegro5\addons\font\CMakeLists.txt	Βϋβ¬1	• ώι¥µ¬1A
+?
+=Z:\AndroidStudioProjects\allegro5\addons\image\CMakeLists.txt	Βϋβ¬1
+ξ< ‚κ¥µ¬1^
+\
+ZZ:\AndroidStudioProjects\allegro5\addons\image\allegro5\internal\aintern_image_cfg.h.cmake	Βϋβ¬1Δ „κ¥µ¬1@
+>
+<Z:\AndroidStudioProjects\allegro5\addons\main\CMakeLists.txt	Βϋβ¬1Ό ±κ¥µ¬1C
+A
+?Z:\AndroidStudioProjects\allegro5\addons\memfile\CMakeLists.txt	Βϋβ¬1‹ ²κ¥µ¬1I
+G
+EZ:\AndroidStudioProjects\allegro5\addons\native_dialog\CMakeLists.txt	Βϋβ¬1ρ ³κ¥µ¬1F
+D
+BZ:\AndroidStudioProjects\allegro5\addons\primitives\CMakeLists.txt	Βϋβ¬1½ Ώκ¥µ¬1A
+?
+=Z:\AndroidStudioProjects\allegro5\addons\video\CMakeLists.txt	Βϋβ¬1ν Μκ¥µ¬1<
+:
+8Z:\AndroidStudioProjects\allegro5\android\CMakeLists.txt	Βϋβ¬1ΰ Πκ¥µ¬1x
+v
+tZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\additional_project_files.txt	Βϋβ¬1Ò ¨ψρέ¬1u
+s
+qZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\android_gradle_build.json	Βϋβ¬1Ωx ©ψρέ¬1z
+x
+vZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\android_gradle_build_mini.json	Βϋβ¬1’r φψρέ¬1g
+e
+cZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\build.ninja	Βϋβ¬1€¦- άφρέ¬1k
+i
+gZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\build.ninja.txt	Βϋβ¬1p
+n
+lZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\build_file_index.txt	Βϋβ¬1» ωρέ¬1q
+o
+mZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\compile_commands.json	Βϋβ¬1¤ο Ϋφρέ¬1u
+s
+qZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\compile_commands.json.bin	Βϋβ¬1‡α Ϋφρέ¬1{
+y
+wZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\metadata_generation_command.txt	Βϋβ¬1› ωρέ¬1n
+l
+jZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\prefab_config.json	Βϋβ¬1( ωρέ¬1s
+q
+oZ:\AndroidStudioProjects\allegro5\android\gradle_project\app\.cxx\Debug\2od605l5\x86_64\symbol_folder_index.txt	Βϋβ¬1n ωρέ¬1B
+@
+>Z:\AndroidStudioProjects\allegro5\cmake\AllegroConfig.cmake.in	Βϋβ¬1‘ λ¥µ¬1<
+:
+8Z:\AndroidStudioProjects\allegro5\cmake\AndroidApp.cmake	Βϋβ¬1‘ ƒλ¥µ¬18
+6
+4Z:\AndroidStudioProjects\allegro5\cmake\Common.cmake	Βϋβ¬1ζ~ ƒλ¥µ¬1:
+8
+6Z:\AndroidStudioProjects\allegro5\cmake\FileList.cmake	Βϋβ¬1 ΏC ƒλ¥µ¬1:
+8
+6Z:\AndroidStudioProjects\allegro5\cmake\FindDUMB.cmake	Βϋβ¬1!Ζ „λ¥µ¬1:
+8
+6Z:\AndroidStudioProjects\allegro5\cmake\FindFLAC.cmake	Βϋβ¬1"Φ	 …λ¥µ¬1?
+=
+;Z:\AndroidStudioProjects\allegro5\cmake\FindFreeImage.cmake	Βϋβ¬1#ά …λ¥µ¬1=
+;
+9Z:\AndroidStudioProjects\allegro5\cmake\FindMiniMP3.cmake	Βϋβ¬1$΅ …λ¥µ¬19
+7
+5Z:\AndroidStudioProjects\allegro5\cmake\FindOgg.cmake	Βϋβ¬1% †λ¥µ¬1?
+=
+;Z:\AndroidStudioProjects\allegro5\cmake\FindOpenGLES2.cmake	Βϋβ¬1&ό
+ †λ¥µ¬1<
+:
+8Z:\AndroidStudioProjects\allegro5\cmake\FindOpenSL.cmake	Βϋβ¬1'  †λ¥µ¬1:
+8
+6Z:\AndroidStudioProjects\allegro5\cmake\FindOpus.cmake	Βϋβ¬1(έ
+ ‡λ¥µ¬1<
+:
+8Z:\AndroidStudioProjects\allegro5\cmake\FindTheora.cmake	Βϋβ¬1)
+ ‡λ¥µ¬1<
+:
+8Z:\AndroidStudioProjects\allegro5\cmake\FindVorbis.cmake	Βϋβ¬1*Φ
+ λ¥µ¬1G
+E
+CZ:\AndroidStudioProjects\allegro5\cmake\PreventInSourceBuilds.cmake	Βϋβ¬1+Ζ λ¥µ¬1K
+I
+GZ:\AndroidStudioProjects\allegro5\demos\cosmic_protector\CMakeLists.txt	Βϋβ¬1,ώ λ¥µ¬1B
+@
+>Z:\AndroidStudioProjects\allegro5\demos\shooter\CMakeLists.txt	Βϋβ¬1-† ΄λ¥µ¬1A
+?
+=Z:\AndroidStudioProjects\allegro5\demos\skater\CMakeLists.txt	Βϋβ¬1.Ώ µμ¥µ¬1@
+>
+<Z:\AndroidStudioProjects\allegro5\demos\speed\CMakeLists.txt	Βϋβ¬1/Ε †ν¥µ¬19
+7
+5Z:\AndroidStudioProjects\allegro5\docs\CMakeLists.txt	Βϋβ¬10“- ‹ν¥µ¬1O
+M
+KZ:\AndroidStudioProjects\allegro5\docs\src\refman\allegro_version.tex.cmake	Βϋβ¬11 ων¥µ¬1O
+M
+KZ:\AndroidStudioProjects\allegro5\include\allegro5\platform\alplatf.h.cmake	Γϋβ¬12—! Λο¥µ¬1:
+8
+6Z:\AndroidStudioProjects\allegro5\tests\CMakeLists.txt	Γϋβ¬13Ή μπ¥µ¬1

@@ -1,0 +1,262 @@
+{
+  "buildFiles": [
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\acodec\\allegro5\\internal\\aintern_acodec_cfg.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\acodec\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\audio\\allegro5\\internal\\aintern_audio_cfg.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\audio\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\color\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\font\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\image\\allegro5\\internal\\aintern_image_cfg.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\image\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\main\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\memfile\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\native_dialog\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\primitives\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\addons\\video\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\android\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\AllegroConfig.cmake.in",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\AndroidApp.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\Common.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FileList.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindDUMB.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindFLAC.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindFreeImage.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindMiniMP3.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOgg.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOpenGLES2.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOpenSL.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindOpus.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindTheora.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\FindVorbis.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\cmake\\PreventInSourceBuilds.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\cosmic_protector\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\shooter\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\skater\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\demos\\speed\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\docs\\CMakeLists.txt",
+    "Z:\\AndroidStudioProjects\\allegro5\\docs\\src\\refman\\allegro_version.tex.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\include\\allegro5\\platform\\alplatf.h.cmake",
+    "Z:\\AndroidStudioProjects\\allegro5\\tests\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "Z:\\android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "Z:\\android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "aar::@7e66ad4de370faaec58f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "aar"
+    },
+    "allegro::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so",
+      "runtimeFiles": []
+    },
+    "allegro_acodec::@1f14d5102b1e331d1d91": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_acodec",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_acodec-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "allegro_audio::@5053eabd6a8b5b3704f0": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_audio",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_audio-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "allegro_color::@6867cadcad80a4c40f59": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_color",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_color-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "allegro_font::@4c3861bae7c8b904828d": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_font",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_font-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "allegro_image::@6f6bc93697b3176762c6": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_image",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_image-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "allegro_main::@b7107a580e5578a01e14": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_main",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_main-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "allegro_memfile::@5ef22e1139e26f6a712e": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_memfile",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_memfile-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "allegro_primitives::@4926f8e3fd45ed59f669": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "allegro_primitives",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_primitives-debug.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "copy_example_data::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "copy_example_data"
+    },
+    "cosmic_protector::@405e6196deeba822ade9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "cosmic_protector",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\armeabi-v7a\\demos\\cosmic_protector\\cosmic_protector.project\\libcosmic_protector.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_primitives-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_image-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_font-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_acodec-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_color-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_memfile-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_main-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "cosmic_protector_apk::@405e6196deeba822ade9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "cosmic_protector_apk"
+    },
+    "docs::@25ace4044b5cefe8d37f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "docs"
+    },
+    "install_cosmic_protector::@405e6196deeba822ade9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "install_cosmic_protector"
+    },
+    "install_skater::@25d9945ddc71320ebf4f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "install_skater"
+    },
+    "install_speed::@e11ba447f24865c9c272": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "install_speed"
+    },
+    "run_cosmic_protector::@405e6196deeba822ade9": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "run_cosmic_protector"
+    },
+    "run_skater::@25d9945ddc71320ebf4f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "run_skater"
+    },
+    "run_speed::@e11ba447f24865c9c272": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "run_speed"
+    },
+    "skater::@25d9945ddc71320ebf4f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "skater",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\armeabi-v7a\\demos\\skater\\skater.project\\libskater.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_primitives-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_image-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_font-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_acodec-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_color-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_memfile-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_main-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "skater_apk::@25d9945ddc71320ebf4f": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "skater_apk"
+    },
+    "speed::@e11ba447f24865c9c272": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "speed",
+      "output": "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\.cxx\\Debug\\4n3y2e3m\\armeabi-v7a\\demos\\speed\\speed.project\\libspeed.so",
+      "runtimeFiles": [
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_primitives-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_image-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_font-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_acodec-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_color-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_memfile-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_main-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro_audio-debug.so",
+        "Z:\\AndroidStudioProjects\\allegro5\\android\\gradle_project\\allegro\\build\\intermediates\\cxx\\Debug\\4n3y2e3m\\obj\\armeabi-v7a\\liballegro-debug.so"
+      ]
+    },
+    "speed_apk::@e11ba447f24865c9c272": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "speed_apk"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "Z:\\android\\sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

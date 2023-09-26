@@ -335,7 +335,7 @@ public class AllegroActivity extends Activity
       Log.d("AllegroActivity", "before nativeOnCreate");
       if (!nativeOnCreate()) {
          finish();
-         Log.d("AllegroActivity", "nativeOnCreate failed");
+         Log.e("AllegroActivity", "nativeOnCreate failed");
          return;
       }
 

@@ -1,0 +1,204 @@
+Determining if files sys/io.h exist failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_9f9d4 && [1/2] Building C object CMakeFiles/cmTC_9f9d4.dir/ALLEGRO_HAVE_SYS_IO_H.c.o
+FAILED: CMakeFiles/cmTC_9f9d4.dir/ALLEGRO_HAVE_SYS_IO_H.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_9f9d4.dir/ALLEGRO_HAVE_SYS_IO_H.c.o -MF CMakeFiles\cmTC_9f9d4.dir\ALLEGRO_HAVE_SYS_IO_H.c.o.d -o CMakeFiles/cmTC_9f9d4.dir/ALLEGRO_HAVE_SYS_IO_H.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_IO_H.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_IO_H.c:2:10: fatal error: 'sys/io.h' file not found
+#include <sys/io.h>
+         ^~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/io.h>
+
+
+int main(void){return 0;}
+
+Determining if files soundcard.h exist failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_46e12 && [1/2] Building C object CMakeFiles/cmTC_46e12.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o
+FAILED: CMakeFiles/cmTC_46e12.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_46e12.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o -MF CMakeFiles\cmTC_46e12.dir\ALLEGRO_HAVE_SOUNDCARD_H.c.o.d -o CMakeFiles/cmTC_46e12.dir/ALLEGRO_HAVE_SOUNDCARD_H.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SOUNDCARD_H.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SOUNDCARD_H.c:2:10: fatal error: 'soundcard.h' file not found
+#include <soundcard.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/soundcard.h exist failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_da5c2 && [1/2] Building C object CMakeFiles/cmTC_da5c2.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o
+FAILED: CMakeFiles/cmTC_da5c2.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_da5c2.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o -MF CMakeFiles\cmTC_da5c2.dir\ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o.d -o CMakeFiles/cmTC_da5c2.dir/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SYS_SOUNDCARD_H.c:2:10: fatal error: 'sys/soundcard.h' file not found
+#include <sys/soundcard.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files machine/soundcard.h exist failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_87596 && [1/2] Building C object CMakeFiles/cmTC_87596.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o
+FAILED: CMakeFiles/cmTC_87596.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_87596.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o -MF CMakeFiles\cmTC_87596.dir\ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o.d -o CMakeFiles/cmTC_87596.dir/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_MACHINE_SOUNDCARD_H.c:2:10: fatal error: 'machine/soundcard.h' file not found
+#include <machine/soundcard.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <machine/soundcard.h>
+
+
+int main(void){return 0;}
+
+Determining if files libkern/OSAtomic.h exist failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_c2110 && [1/2] Building C object CMakeFiles/cmTC_c2110.dir/ALLEGRO_HAVE_OSATOMIC_H.c.o
+FAILED: CMakeFiles/cmTC_c2110.dir/ALLEGRO_HAVE_OSATOMIC_H.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_c2110.dir/ALLEGRO_HAVE_OSATOMIC_H.c.o -MF CMakeFiles\cmTC_c2110.dir\ALLEGRO_HAVE_OSATOMIC_H.c.o.d -o CMakeFiles/cmTC_c2110.dir/ALLEGRO_HAVE_OSATOMIC_H.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_OSATOMIC_H.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_OSATOMIC_H.c:2:10: fatal error: 'libkern/OSAtomic.h' file not found
+#include <libkern/OSAtomic.h>
+         ^~~~~~~~~~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <libkern/OSAtomic.h>
+
+
+int main(void){return 0;}
+
+Determining if files sal.h exist failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_ac49f && [1/2] Building C object CMakeFiles/cmTC_ac49f.dir/ALLEGRO_HAVE_SAL_H.c.o
+FAILED: CMakeFiles/cmTC_ac49f.dir/ALLEGRO_HAVE_SAL_H.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_ac49f.dir/ALLEGRO_HAVE_SAL_H.c.o -MF CMakeFiles\cmTC_ac49f.dir\ALLEGRO_HAVE_SAL_H.c.o.d -o CMakeFiles/cmTC_ac49f.dir/ALLEGRO_HAVE_SAL_H.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SAL_H.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CheckIncludeFiles/ALLEGRO_HAVE_SAL_H.c:2:10: fatal error: 'sal.h' file not found
+#include <sal.h>
+         ^~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sal.h>
+
+
+int main(void){return 0;}
+
+Determining if the function getexecname exists failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_1ba3f && [1/2] Building C object CMakeFiles/cmTC_1ba3f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1ba3f
+FAILED: cmTC_1ba3f 
+cmd.exe /C "cd . && Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=getexecname -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_1ba3f.dir/CheckFunctionExists.c.o -o cmTC_1ba3f  -latomic -lm && cd ."
+ld: error: undefined symbol: getexecname
+>>> referenced by CheckFunctionExists.c:17 (Z:/android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_1ba3f.dir/CheckFunctionExists.c.o:(main)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function strerror_s exists failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_20215 && [1/2] Building C object CMakeFiles/cmTC_20215.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_20215
+FAILED: cmTC_20215 
+cmd.exe /C "cd . && Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=strerror_s -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_20215.dir/CheckFunctionExists.c.o -o cmTC_20215  -latomic -lm && cd ."
+ld: error: undefined symbol: strerror_s
+>>> referenced by CheckFunctionExists.c:17 (Z:/android/sdk/cmake/3.22.1/share/cmake-3.22/Modules/CheckFunctionExists.c:17)
+>>>               CMakeFiles/cmTC_20215.dir/CheckFunctionExists.c.o:(main)
+>>> did you mean: strerror_r
+>>> defined in: Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/19/libc.so
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_PROCFS_ARGCV failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_a921b && [1/2] Building C object CMakeFiles/cmTC_a921b.dir/src.c.o
+FAILED: CMakeFiles/cmTC_a921b.dir/src.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DALLEGRO_HAVE_PROCFS_ARGCV  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_a921b.dir/src.c.o -MF CMakeFiles\cmTC_a921b.dir\src.c.o.d -o CMakeFiles/cmTC_a921b.dir/src.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp/src.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp/src.c:4:25: error: variable has incomplete type 'struct prpsinfo'
+        struct prpsinfo psinfo;
+                        ^
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp/src.c:4:16: note: forward declaration of 'struct prpsinfo'
+        struct prpsinfo psinfo;
+               ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+    #include <sys/procfs.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        psinfo.pr_argc = 0;
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_SV_PROCFS_H failed with the following output:
+Change Dir: Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp
+
+Run Build Command(s):Z:\android\sdk\cmake\3.22.1\bin\ninja.exe cmTC_85ac5 && [1/2] Building C object CMakeFiles/cmTC_85ac5.dir/src.c.o
+FAILED: CMakeFiles/cmTC_85ac5.dir/src.c.o 
+Z:\android\sdk\ndk\25.1.8937393\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android19 --sysroot=Z:/android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DALLEGRO_HAVE_SV_PROCFS_H  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse -W -Wall -Wpointer-arith -Wmissing-declarations -Wstrict-prototypes  -fPIE -MD -MT CMakeFiles/cmTC_85ac5.dir/src.c.o -MF CMakeFiles\cmTC_85ac5.dir\src.c.o.d -o CMakeFiles/cmTC_85ac5.dir/src.c.o -c Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp/src.c
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp/src.c:5:25: error: variable has incomplete type 'struct prpsinfo'
+        struct prpsinfo psinfo;
+                        ^
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp/src.c:5:16: note: forward declaration of 'struct prpsinfo'
+        struct prpsinfo psinfo;
+               ^
+Z:/AndroidStudioProjects/allegro5/android/gradle_project/app/.cxx/Debug/4m1d1o6h/x86/CMakeFiles/CMakeTmp/src.c:6:18: error: use of undeclared identifier 'PIOCPSINFO'
+        ioctl(0, PIOCPSINFO, &psinfo);
+                 ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+    #include <sys/procfs.h>
+    #include <sys/ioctl.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        ioctl(0, PIOCPSINFO, &psinfo);
+        return 0;
+    }

@@ -20,11 +20,11 @@ public class MainActivity extends AllegroActivity {
                 // not be a fatal error - for example if the TTF was
                 // not built we can still run an example which does not
                 // need that addon.
-                Log.d("loadLibrary", name + " FAILED");
+                Log.e("loadLibrary", name + " FAILED");
             }
         }
     }
-        
+
     static {
         loadLibrary("allegro");
         loadLibrary("allegro_primitives");
@@ -39,6 +39,6 @@ public class MainActivity extends AllegroActivity {
         loadLibrary("allegro_video");
     }
     public MainActivity() {
-        super("libnative-lib.so");
+        super("libspeed.so");
     }
 }

@@ -1,17 +1,32 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
+    compileSdk 33
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 17
         targetSdkVersion 33
-        versionCode 1
-        versionName "1.0"
+       externalNativeBuild {
+          cmake {
+             cppFlags ''
+             // "-DANDROID_STL=c++_shared",
+             arguments "-DWANT_EXAMPLES=OFF"
+             cppFlags '-std=c++14'
+          }
+       }
+
     }
     buildTypes {
         release {
             minifyEnabled false
         }
     }
+    namespace 'org.liballeg'
+   externalNativeBuild {
+      cmake {
+         path file('../../../CMakeLists.txt')
+         version '3.22.1'
+      }
+   }
+
 }
 
